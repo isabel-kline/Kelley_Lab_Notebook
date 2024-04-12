@@ -1,0 +1,156 @@
+---
+title: "Gar HMW Extraction"
+author: "Isabel Kline"
+output:  
+  html_document:
+    theme: flatly
+    toc:  true
+    toc_float:  false
+    number_sections:  true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Summary
+
+### Overview
+
+2013 Gar Tissue pulled from the Kelley Lab -80, Top Rack A, column 3, Row 4 and 5
+
+### Planning
+
+Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extraction kit with modifications
+
+-   aim for up to 50 mg of sample input
+
+-   200 ul and 400 ul of cold Buffer CT (respectively in OOO, both below std amount)
+
+-   centrifuge spins will be at 10G
+
+-   warm EB to 70C to improve yield
+
+##### Sequencing strategy
+
+*Sample will be sent to Davis for Pac Bio Sequencing I assume*
+
+# Log
+
+### Date
+
+write up
+
+#### Next Steps
+
+write up
+
+### Date
+
+write up
+
+#### Next Steps
+
+write up
+
+### Notes
+
+Tissue selection: Fish skeletal muscle is not recommended if other fish tissues are available (e.g., heart, testes, fin clip, kidney)
+
+Double input of sample if using skeletal muscle. Still a good candidate b/c parasite fraction might be lower
+
+# Metadata
+
+## Sample Data
+
+Experiment
+
+Date of Experiment:
+
+### Cryofracture:
+
+|            |              |        |                      |                        |       |
+|------------|------------|------------|------------|------------|------------|
+| Experiment | Date of Exp. | Sample | Cryofracture Tube ID | input tissue weight mg | notes |
+|            |              |        |                      |                        |       |
+
+### Post Extraction:
+
+|         |                            |                   |             |                               |           |           |                                            |             |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Tube ID | Qubit [ng/ul] 1:5 dilution | Varioskan [ng/ul] | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | tapestation avg size [bp] from 10000-60000 | \% of total |
+|         |                            |                   |             |                               |           |           |                                            |             |
+
+## Sample Storage
+
+##### Tissue
+
+tube id:
+
+box label:
+
+storage location and temperature: -80
+
+##### DNA extract:
+
+tube id:
+
+box label:
+
+storage location and temperature: -20 Kelley Lab
+
+# [Exp21_Protocol](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri}
+
+## Materials List
+
+|                  |                |                               |                                      |
+|------------------|------------------|------------------|-------------------|
+| tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
+| milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
+| Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
+| 100% Isopropanol | p1000 tips     | NFW-optional                  | 2ml Protein loBind                   |
+| ice bucket       | p200 tips      | protein lo bind tubes 1.5/2mL | 1.5 mL Protein LoBind                |
+| hammer           | Dissection kit | Qubit dsDNA BR                | 1.5 mL DNA LoBind                    |
+
+## Kit Particulars & Lot Numbers
+
+##### Cryofracture
+
+|                  |             |     |
+|------------------|-------------|-----|
+| Materials        | part number | lot |
+| tissueTUBE TT05M | 520139      |     |
+| milliTUBE 2mL    | 520132      |     |
+
+##### Circulomics HMW DNA Extraction
+
+Kit lot number:
+
+|                                                              |
+|--------------------------------------------------------------|
+| Buffer CT - keep on ice when it is removed from refrigerator |
+| Buffer CLE3                                                  |
+| Buffer SB                                                    |
+| Proteinase K                                                 |
+| Rnase A                                                      |
+| Buffer BL3                                                   |
+| Buffer CW1                                                   |
+| Buffer CW2                                                   |
+| Nanobind disk                                                |
+
+Buffer CW1 and CW2 are supplied as concentrates.\
+This kit uses CW1 & CW2 a 60% final ethanol concentration.\
+Before using, add the appropriate amount of ethanol\
+(96–100%) to Buffer CW1 and Buffer CW2 as indicated on the bottles
+
+## References:
+
+[Nanobind HMW DNA Extraction with recommendations from rep](https://drive.google.com/file/d/1p-N6nGSbNaRR8--zRpCxt5cSUb5_4CJ3/view?usp=drive_link){.uri}
+
+<https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0017209_Qubit_4_Fluorometer_UG.pdf>
+
+<https://www.agilent.com/cs/library/usermanuals/public/4150-TapeStation_SystemManual.pdf>
+
+<https://www.pacb.com/wp-content/uploads/Procedure-checklist-Homogenizing-tissue-using-cryoPREP.pdf>
+
+find the manual for the nanodrop machine
