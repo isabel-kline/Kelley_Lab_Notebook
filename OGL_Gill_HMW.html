@@ -226,96 +226,6 @@ window.buildTabsets = function(tocID) {
 };
 
 </script>
-<script>
-window.initializeCodeFolding = function(show) {
-
-  // handlers for show-all and hide all
-  $("#rmd-show-all-code").click(function() {
-    $('div.r-code-collapse').each(function() {
-      $(this).collapse('show');
-    });
-  });
-  $("#rmd-hide-all-code").click(function() {
-    $('div.r-code-collapse').each(function() {
-      $(this).collapse('hide');
-    });
-  });
-
-  // index for unique code element ids
-  var currentIndex = 1;
-
-  // select all R code blocks
-  var rCodeBlocks = $('pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan, pre.julia, pre.foldable');
-  rCodeBlocks.each(function() {
-    // skip if the block has fold-none class
-    if ($(this).hasClass('fold-none')) return;
-
-    // create a collapsable div to wrap the code in
-    var div = $('<div class="collapse r-code-collapse"></div>');
-    var showThis = (show || $(this).hasClass('fold-show')) && !$(this).hasClass('fold-hide');
-    var id = 'rcode-643E0F36' + currentIndex++;
-    div.attr('id', id);
-    $(this).before(div);
-    $(this).detach().appendTo(div);
-
-    // add a show code button right above
-    var showCodeText = $('<span>' + (showThis ? 'Hide' : 'Show') + '</span>');
-    var showCodeButton = $('<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm code-folding-btn pull-right float-right"></button>');
-    showCodeButton.append(showCodeText);
-    showCodeButton
-        .attr('data-toggle', 'collapse')
-        .attr('data-bs-toggle', 'collapse') // BS5
-        .attr('data-target', '#' + id)
-        .attr('data-bs-target', '#' + id)   // BS5
-        .attr('aria-expanded', showThis)
-        .attr('aria-controls', id);
-
-    var buttonRow = $('<div class="row"></div>');
-    var buttonCol = $('<div class="col-md-12"></div>');
-
-    buttonCol.append(showCodeButton);
-    buttonRow.append(buttonCol);
-
-    div.before(buttonRow);
-
-    // show the div if necessary
-    if (showThis) div.collapse('show');
-
-    // update state of button on show/hide
-    //   * Change text
-    //   * add a class for intermediate states styling
-    div.on('hide.bs.collapse', function () {
-      showCodeText.text('Show');
-      showCodeButton.addClass('btn-collapsing');
-    });
-    div.on('hidden.bs.collapse', function () {
-      showCodeButton.removeClass('btn-collapsing');
-    });
-    div.on('show.bs.collapse', function () {
-      showCodeText.text('Hide');
-      showCodeButton.addClass('btn-expanding');
-    });
-    div.on('shown.bs.collapse', function () {
-      showCodeButton.removeClass('btn-expanding');
-    });
-
-  });
-
-}
-</script>
-<script>
-window.initializeSourceEmbed = function(filename) {
-  $("#rmd-download-source").click(function() {
-    var src = $("#rmd-source-code").html();
-    var a = document.createElement('a');
-    a.href = "data:text/x-r-markdown;base64," + src;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  });
-};
-</script>
 <style type="text/css">.hljs-literal {
 color: #990073;
 }
@@ -359,11 +269,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-#rmd-source-code {
-display: none;
-}
-</style>
 
 
 
@@ -444,9 +349,6 @@ display: none;
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -462,13 +364,6 @@ display: none;
 
 
 <div id="header">
-
-<div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
-<li><a id="rmd-download-source" href="#">Download Rmd</a></li>
-</ul>
-</div>
 
 
 
@@ -792,7 +687,6 @@ rep</a></p>
 </div>
 </div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiT0dMIEhNVyBFeHRyYWN0aW9uIgphdXRob3I6ICJJc2FiZWwgS2xpbmUiCm91dHB1dDogIAogIGh0bWxfZG9jdW1lbnQ6CiAgICB0aGVtZTogZmxhdGx5CiAgICB0b2M6ICB0cnVlCiAgICB0b2NfZmxvYXQ6ICBmYWxzZQogICAgbnVtYmVyX3NlY3Rpb25zOiAgdHJ1ZQogICAgY29kZV9kb3dubG9hZDogIHRydWUKLS0tCgpgYGB7ciBzZXR1cCwgaW5jbHVkZT1GQUxTRX0Ka25pdHI6Om9wdHNfY2h1bmskc2V0KGVjaG8gPSBUUlVFKQpgYGAKCiMgU3VtbWFyeQoKIyMjIE92ZXJ2aWV3CgpMeWNvZGVzIENvbmNvbG9yIEdpbGwgVGlzc3VlIHdhcyBzb3VyY2VkIGZyb20gdGhlIE9jZWFuIEdlbm9tZSBMZWdhY3kKCiMjIyBQbGFubmluZwoKRXh0cmFjdGlvbiBwbGFuOiBEcnkgSWNlIENyeW9mcmFjdHVyZSBvZiBUaXNzdWVzIGFuZCBDaXJjdWxvbWljcyBITVcgRE5BIEV4dHJhY3Rpb24ga2l0IHdpdGggbW9kaWZpY2F0aW9ucwoKLSAgIGFpbSBmb3IgdXAgdG8gNTAgbWcgb2Ygc2FtcGxlIGlucHV0CgotICAgMjAwIHVsIGFuZCA0MDAgdWwgb2YgY29sZCBCdWZmZXIgQ1QgKHJlc3BlY3RpdmVseSBpbiBPT08sIGJvdGggYmVsb3cgc3RkIGFtb3VudCkKCi0gICBjZW50cmlmdWdlIHNwaW5zIHdpbGwgYmUgYXQgMTBHCgotICAgd2FybSBFQiB0byA3MEMgdG8gaW1wcm92ZSB5aWVsZAoKU2FtcGxlIG1pZ2h0IGhhdmUgdG8gYmUgc3B1biBkb3duIHNsb3dseSAtICpzbHVycnkgY29uY2VybnMqCgotICAgbWlnaHQgc2tpcCBjcnlvZnJhY3R1cmUgZGVwZW5kaW5nIG9uIGhvdyBpbnRhY3QgdGhlIHNhbXBsZSBpcwoKIyMjIyMgU2VxdWVuY2luZyBzdHJhdGVneQoKKlNhbXBsZSB3aWxsIGJlIHNlbnQgdG8gRGF2aXMgZm9yIFBhYyBCaW8gU2VxdWVuY2luZyoKCiMgTG9nCgojIyMgRGF0ZQoKd3JpdGUgdXAKCiMjIyMgTmV4dCBTdGVwcwoKd3JpdGUgdXAKCiMjIyBEYXRlCgp3cml0ZSB1cAoKIyMjIyBOZXh0IFN0ZXBzCgp3cml0ZSB1cAoKIyMjIE5vdGVzCgpUaXNzdWUgc2VsZWN0aW9uOiBGaXNoIHNrZWxldGFsIG11c2NsZSBpcyBub3QgcmVjb21tZW5kZWQgaWYgb3RoZXIgZmlzaCB0aXNzdWVzIGFyZSBhdmFpbGFibGUgKGUuZy4sIGhlYXJ0LCB0ZXN0ZXMsIGZpbiBjbGlwLCBraWRuZXkpCgpEb3VibGUgaW5wdXQgb2Ygc2FtcGxlIGlmIHVzaW5nIHNrZWxldGFsIG11c2NsZS4gU3RpbGwgYSBnb29kIGNhbmRpZGF0ZSBiL2MgcGFyYXNpdGUgZnJhY3Rpb24gbWlnaHQgYmUgbG93ZXIKCiMgTWV0YWRhdGEKCiMjIFNhbXBsZSBEYXRhCgpFeHBlcmltZW50CgpEYXRlIG9mIEV4cGVyaW1lbnQ6CgojIyMgQ3J5b2ZyYWN0dXJlOgoKfCAgICAgICAgICAgIHwgICAgICAgICAgICAgIHwgICAgICAgIHwgICAgICAgICAgICAgICAgICAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgIHwgICAgICAgfAp8LS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS18CnwgRXhwZXJpbWVudCB8IERhdGUgb2YgRXhwLiB8IFNhbXBsZSB8IENyeW9mcmFjdHVyZSBUdWJlIElEIHwgaW5wdXQgdGlzc3VlIHdlaWdodCBtZyB8IG5vdGVzIHwKfCAgICAgICAgICAgIHwgICAgICAgICAgICAgIHwgICAgICAgIHwgICAgICAgICAgICAgICAgICAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgIHwgICAgICAgfAoKIyMjIFBvc3QgRXh0cmFjdGlvbjoKCnwgICAgICAgICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgICAgICAgICAgICAgICAgICAgfCAgICAgICAgICAgICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgICAgICAgICAgIHwgICAgICAgICAgIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgICAgICAgICAgICAgfAp8LS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS18CnwgVHViZSBJRCB8IFF1Yml0IFtuZy91bF0gMTo1IGRpbHV0aW9uIHwgVmFyaW9za2FuIFtuZy91bF0gfCBlbHV0aW9uIHZvbCB8IHRvdGFsIHlpZWxkIChtaWNyb2dyYW1zKSAodWcpIHwgQTI2MC9BMjgwIHwgQTI2MC9BMjMwIHwgdGFwZXN0YXRpb24gYXZnIHNpemUgW2JwXSBmcm9tIDEwMDAwLTYwMDAwIHwgXCUgb2YgdG90YWwgfAp8ICAgICAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICAgICAgICAgICAgICAgICAgIHwgICAgICAgICAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICAgICAgICAgICB8ICAgICAgICAgICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICAgICAgICAgICAgIHwKCiMjIFNhbXBsZSBTdG9yYWdlCgojIyMjIyBHaWxsCgp0dWJlIGlkOgoKYm94IGxhYmVsOgoKc3RvcmFnZSBsb2NhdGlvbiBhbmQgdGVtcGVyYXR1cmU6IC04MAoKIyMjIyMgRE5BIGV4dHJhY3Q6Cgp0dWJlIGlkOgoKYm94IGxhYmVsOgoKc3RvcmFnZSBsb2NhdGlvbiBhbmQgdGVtcGVyYXR1cmU6IC0yMCBLZWxsZXkgTGFiCgojIFtFeHAyMF9Qcm90b2NvbF0oaHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vc3ByZWFkc2hlZXRzL2QvMTMwVV9BYVZET0ROdEJoVzh6aUdtYmVDbHl3enZ6SFZ5cW9CaV82UlJGZUEvZWRpdD91c3A9ZHJpdmVfbGluayl7LnVyaX0KCiMjIE1hdGVyaWFscyBMaXN0Cgp8ICAgICAgICAgICAgICAgICAgfCAgICAgICAgICAgICAgICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfC0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tLS18CnwgdGlzc3VlVFVCRSBUVDA1TSB8IFNsYW1tZXIga2l0ICAgIHwgQ2lyY3Vsb21pY3MgS2l0ICAgICAgICAgICAgICAgfCBETkEgbG8gYmluZCB0dWJlcyBmb3Igc2FtcGxlIHN0b3JhZ2UgfAp8IG1pbGxpVFVCRSAybUzCoCAgIHwgMTAwJSBldGhhbm9sICAgfCBSTmFzZSBBICAgICAgICAgICAgICAgICAgICAgICB8ICoqdGhpbmdzIHRvIGxhYmVsKiogICAgICAgICAgICAgICAgICB8CnwgRHJ5IEljZSAgICAgICAgICB8IEljZSBuIGJ1Y2tldCAgIHwgbWFnIHJhY2sgICAgICAgICAgICAgICAgICAgICAgfCBzbWFzaCBiYWcgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IDEwMCUgSXNvcHJvcGFub2wgfCBwMTAwMCB0aXBzICAgICB8IE5GVy1vcHRpb25hbCAgICAgICAgICAgICAgICAgIHwgMm1sIFByb3RlaW4gbG9CaW5kICAgICAgICAgICAgICAgICAgIHwKfCBpY2UgYnVja2V0ICAgICAgIHwgcDIwMCB0aXBzICAgICAgfCBwcm90ZWluIGxvIGJpbmQgdHViZXMgMS41LzJtTCB8IDEuNSBtTCBQcm90ZWluIExvQmluZCAgICAgICAgICAgICAgICB8CnwgaGFtbWVyICAgICAgICAgICB8IERpc3NlY3Rpb24ga2l0IHwgUXViaXQgZHNETkEgQlIgICAgICAgICAgICAgICAgfCAxLjUgbUwgRE5BIExvQmluZCAgICAgICAgICAgICAgICAgICAgfAoKIyMgS2l0IFBhcnRpY3VsYXJzICYgTG90IE51bWJlcnMKCiMjIyMjIENyeW9mcmFjdHVyZQoKfCAgICAgICAgICAgICAgICAgIHwgICAgICAgICAgICAgfCAgICAgfAp8LS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS18LS0tLS18CnwgTWF0ZXJpYWxzICAgICAgICB8IHBhcnQgbnVtYmVyIHwgbG90IHwKfCB0aXNzdWVUVUJFIFRUMDVNIHwgNTIwMTM5ICAgICAgfCAgICAgfAp8IG1pbGxpVFVCRSAybUzCoCAgIHwgNTIwMTMyICAgICAgfCAgICAgfAoKIyMjIyMgQ2lyY3Vsb21pY3MgSE1XIEROQSBFeHRyYWN0aW9uCgpLaXQgbG90IG51bWJlcjoKCnwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tfAp8IEJ1ZmZlciBDVCAtIGtlZXAgb24gaWNlIHdoZW4gaXQgaXMgcmVtb3ZlZCBmcm9tIHJlZnJpZ2VyYXRvciB8CnwgQnVmZmVyIENMRTMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBCdWZmZXIgU0IgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IFByb3RlaW5hc2UgSyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgUm5hc2UgQSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBCdWZmZXIgQkwzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IEJ1ZmZlciBDVzEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgQnVmZmVyIENXMiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBOYW5vYmluZCBkaXNrICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAoKQnVmZmVyIENXMSBhbmQgQ1cyIGFyZSBzdXBwbGllZCBhcyBjb25jZW50cmF0ZXMuXApUaGlzIGtpdCB1c2VzIENXMSAmIENXMiBhIDYwJSBmaW5hbCBldGhhbm9sIGNvbmNlbnRyYXRpb24uXApCZWZvcmUgdXNpbmcsIGFkZCB0aGUgYXBwcm9wcmlhdGUgYW1vdW50IG9mIGV0aGFub2xcCig5NuKAkzEwMCUpIHRvIEJ1ZmZlciBDVzEgYW5kIEJ1ZmZlciBDVzIgYXMgaW5kaWNhdGVkIG9uIHRoZSBib3R0bGVzCgojIyBSZWZlcmVuY2VzOgoKW05hbm9iaW5kIEhNVyBETkEgRXh0cmFjdGlvbiB3aXRoIHJlY29tbWVuZGF0aW9ucyBmcm9tIHJlcF0oaHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xcC1ONm5HU2JOYVJSOC0telJwQ3h0NWNTVWI1XzRDSjMvdmlldz91c3A9ZHJpdmVfbGluayl7LnVyaX0KCjxodHRwczovL2Fzc2V0cy50aGVybW9maXNoZXIuY29tL1RGUy1Bc3NldHMvTFNHL21hbnVhbHMvTUFOMDAxNzIwOV9RdWJpdF80X0ZsdW9yb21ldGVyX1VHLnBkZj4KCjxodHRwczovL3d3dy5hZ2lsZW50LmNvbS9jcy9saWJyYXJ5L3VzZXJtYW51YWxzL3B1YmxpYy80MTUwLVRhcGVTdGF0aW9uX1N5c3RlbU1hbnVhbC5wZGY+Cgo8aHR0cHM6Ly93d3cucGFjYi5jb20vd3AtY29udGVudC91cGxvYWRzL1Byb2NlZHVyZS1jaGVja2xpc3QtSG9tb2dlbml6aW5nLXRpc3N1ZS11c2luZy1jcnlvUFJFUC5wZGY+Cgo8aHR0cHM6Ly9jaGVhcGFzc3NjaWVuY2Uud29yZHByZXNzLmNvbS8yMDEyLzAxLzIwL2RpeS10dWJlLWhvbGRlci1mb3Itdm9ydGV4LW1peGVycy8+CgpwYWMgYmlvIGhtdyBkbmEgZXh0cmFjdCBhbmltYWwgdGlzc3VlCgpmaW5kIHRoZSBtYW51YWwgZm9yIHRoZSBuYW5vZHJvcCBtYWNoaW5lCg==</div>
 
 
 
@@ -826,11 +720,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeSourceEmbed("OGL_Gill_HMW.Rmd");
-});
-</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
