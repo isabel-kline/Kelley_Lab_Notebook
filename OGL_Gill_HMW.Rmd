@@ -108,7 +108,7 @@ storage location and temperature: -20 Kelley Lab
 ## Materials List
 
 |                  |                |                               |                                      |
-|-----------------|-----------------|------------------|---------------------|
+|------------------|------------------|------------------|--------------------|
 | tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
 | milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
 | Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
@@ -156,9 +156,5 @@ Before using, add the appropriate amount of ethanol\
 <https://www.agilent.com/cs/library/usermanuals/public/4150-TapeStation_SystemManual.pdf>
 
 <https://www.pacb.com/wp-content/uploads/Procedure-checklist-Homogenizing-tissue-using-cryoPREP.pdf>
-
-<https://cheapassscience.wordpress.com/2012/01/20/diy-tube-holder-for-vortex-mixers/>
-
-pac bio hmw dna extract animal tissue
 
 find the manual for the nanodrop machine
