@@ -1,0 +1,400 @@
+---
+title: "OGL HMW Extraction"
+author: "Isabel Kline"
+output:  
+  html_document:
+    theme: journal
+    toc:  true
+    toc_float:  false
+    number_sections:  true
+    code_download:  true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Summary
+
+### Overview
+
+Lycodes Concolor Gill Tissue was sourced from the Ocean Genome Legacy
+
+### Planning
+
+Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extraction kit with modifications
+
+-   aim for up to 50 mg of sample input
+
+-   200 ul and 400 ul of cold Buffer CT (respectively in OOO, both below std amount)
+
+-   centrifuge spins will be at 10G
+
+-   warm EB to 70C to improve yield
+
+Sample might have to be spun down slowly - *slurry concerns*
+
+-   might skip cryofracture depending on how intact the sample is
+
+##### Sequencing strategy
+
+*Sample will be sent to Davis for Pac Bio Sequencing*
+
+# Log
+
+### Date
+
+write up
+
+#### Next Steps
+
+write up
+
+### Date
+
+write up
+
+#### Next Steps
+
+write up
+
+### Notes
+
+Tissue selection: Fish skeletal muscle is not recommended if other fish tissues are available (e.g., heart, testes, fin clip, kidney)
+
+Double input of sample if using skeletal muscle. Still a good candidate b/c parasite fraction might be lower
+
+# Metadata
+
+## Sample Data
+
+Experiment
+
+Date of Experiment:
+
+### Cryofracture:
+
+|            |              |        |                      |                        |       |
+|------------|------------|------------|------------|------------|------------|
+| Experiment | Date of Exp. | Sample | Cryofracture Tube ID | input tissue weight mg | notes |
+|            |              |        |                      |                        |       |
+
+### Post Extraction:
+
+|         |                            |                   |             |                               |           |           |                                            |             |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Tube ID | Qubit [ng/ul] 1:5 dilution | Varioskan [ng/ul] | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | tapestation avg size [bp] from 10000-60000 | \% of total |
+|         |                            |                   |             |                               |           |           |                                            |             |
+
+## Sample Storage
+
+##### Gill
+
+tube id:
+
+box label:
+
+storage location and temperature: -80
+
+##### DNA extract:
+
+tube id:
+
+box label:
+
+storage location and temperature: -20 Kelley Lab
+
+## Kit Particulars & Lot Numbers
+
+##### Cryofracture
+
+|                  |             |     |
+|------------------|-------------|-----|
+| Materials        | part number | lot |
+| tissueTUBE TT05M | 520139      |     |
+| milliTUBE 2mL    | 520132      |     |
+
+##### Circulomics HMW DNA Extraction
+
+| Kit lot number:                                              |
+|--------------------------------------------------------------|
+| Buffer CT - keep on ice when it is removed from refrigerator |
+| Buffer CLE3                                                  |
+| Buffer SB                                                    |
+| Proteinase K                                                 |
+| Rnase A                                                      |
+| Buffer BL3                                                   |
+| Buffer CW1                                                   |
+| Buffer CW2                                                   |
+| Nanobind disk                                                |
+
+Buffer CW1 and CW2 are supplied as concentrates.\
+This kit uses CW1 & CW2 a 60% final ethanol concentration.\
+Before using, add the appropriate amount of ethanol\
+(96–100%) to Buffer CW1 and Buffer CW2 as indicated on the bottles
+
+# Protocols
+
+## Materials List
+
+|                  |                |                               |                                      |
+|---------------|---------------|-------------------|-----------------------|
+| tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
+| milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
+| Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
+| 100% Isopropanol | p1000 tips     | NFW-optional                  | 2ml Protein loBind                   |
+| ice bucket       | p200 tips      | protein lo bind tubes 1.5/2mL | 1.5 mL Protein LoBind                |
+| hammer           | Dissection kit | Qubit dsDNA BR                | 1.5 mL DNA LoBind                    |
+
+## Extraction
+
+### **Cryo Fracture prior to HMW DNA Extraction**
+
+❑ Weigh out 50 mg of tissue
+
+A plastic weigh boat cleaned with 70% EtOH can be placed on an upside-down
+
+aluminum dry bath incubator heat block sitting in ice can be used to keep the tissue cold during the mincing.
+
+❑ Check weight on scale
+
+❑ Using clean tweezers, insert \~50 mg of tissue into the tissueTube bag
+
+The tissue should be placed approximately two-thirds of the way into the bag
+
+❑ Screw in a 20mmx125mm glass tube onto the neck, then unscrew half a turn.
+
+❑Prepare low-temperature bath
+
+\- iso into bucket with some chippies of dry ice to cold it all down, mix to stir and ready to go!
+
+❑ With cryogloves, holding the millitube, submerge the bag in the low temp bath
+
+**DO NOT submerge the neck of the tissue tube**
+
+❑ Wait until the “sizzling” around the bag has diminished. This will take 30–90 s.
+
+❑ Move the tissueTUBE into position between wood pieces of slammer kit
+
+**Extra double check that Tube is not tightened all the way here**
+
+❑ Hit once
+
+❑ Pinch bag w/ fingertips to loosen tissue pieces
+
+❑ Repeat 3-5x times (5 impacts total) until sample looks like powder
+
+❑ tighten the tube into the neck and place in slurry for about a minute
+
+### Transfer Sample from Covaris Bag to 1.5ml Tube
+
+❑ Cut the end of a P1000 tip to make it wider bore
+
+❑ Remove bag and tube from slurry & place so it is upright, then unscrew and remove tube
+
+❑ Add 200 μL of cold Buffer CT to powdered sample.
+
+❑ mix well by pipetting, or squishing the bag with your fingers
+
+❑ Transfer mixture to 2 mL Protein LoBind tube with the wide bore p1000 tip
+
+When done with slurry:
+
+*❑Smoothly transfer slurry to fume hood until mixture reaches RT*
+
+*❑Excess liquid may be then carefully poured into the organic solvent waste container.*
+
+❑ Centrifuge samples at 10,000 x g \@ 4C for 5 minutes to pellet homogenate
+
+❑ Discard Supernatants
+
+❑ Add 400 mL of cold Buffer CT to all samples and pipette to mix 10x with a wide bore p200 pipette to resuspend tissues
+
+❑ Centrifuge samples at 10,000 x g and 4C for 5 minutes to pellet homogenates
+
+❑ Discard Supernatants
+
+❑ Pulse vortex for 1s x 2 times (max setting) to dislodge pellet.
+
+### **Proteinase K digestion**
+
+❑ Add 20 ul Proteinase K Solution to each Sample.
+
+❑ Add 150 ul mL of Buffer CLE3 to all samples. pipette to mix 10x with a wide bore p200 pipette
+
+❑ Incubate at 55°C, 900 rpm on a thermomixer for 2 hours
+
+❑ Spin the tube on a mini-centrifuge for 2 s to remove liquid from the cap.
+
+### Rnase Digestion
+
+❑post incubation: add 20 ul RNase A
+
+❑ Incubate at 55°C, 900 rpm on a thermomixer for 30 min
+
+❑ Spin the tube on a mini-centrifuge for 2 s to remove liquid from the cap.
+
+❑ Add 60 ul of Buffer SB, pulse vortex for 1s 5x times (max setting) to mix
+
+❑ Centrifuge samples at 10,000 x g at RT for 5 minutes
+
+*❑ During spin: Set heat block to 37 C for elution*
+
+❑ Transfer up to 300 µL of supernatant to a new **1.5 mL Protein LoBind tube** using a wide bore P200 pipette. 150 2x
+
+-   Avoid pipetting from the very bottom of the tube.
+
+-   Transfer the entire gel-like matrix if there is one.
+
+-   Avoid transferring waxy or opaque residue floaters, it can stick to pip tips so avoid touching tip sides to new tube
+
+❑ Discard the 2 mL Protein LoBind tube containing the precipitated pellet.
+
+❑ Add 50 ul of Buffer BL3 to the previous supernatants and inversion mix 10x
+
+*solution might get cloudy but will clear up on rocker later*
+
+❑ Spin down on a mini-fuge for 2 s to remove liquid from the cap
+
+❑ Add Nanobind disk to lysates 1st ❑ Add 350 ul of Isopropanol 2nd
+
+❑ Inversion mix 10x might get cloudy here too
+
+❑ Mix on a platform rocker at 20 rpm for 15 min at RT
+
+❑ Place tube rack on the magnetic base\
+❑ Follow magnetic rack handling procedure: there are pictures! ❑ remove tube rack from magnet base and insert tubes\
+❑flip tube rack upside down, set down? nanobind and liquid settles into lid
+
+❑ place mag rack onto upside down tube rack (also upside down)\
+❑ gently rotate the mag base, so that mag part is down + tubes are above, then 180\
+❑ Rotate mag base right side up nanobind should be captured near the top\
+❑ Discard supernatant with a pip, avoid DNA and the disk
+
+❑ Remove excess liquid from the tube cap to minimize carryover contamination.
+
+### **CW1 washes**
+
+❑ ❑ Add 500 ul of Buffer CW1
+
+❑ ❑Remove tube rack from mag base, inversion mix 4x
+
+❑ ❑ Replace the tube rack on the magnetic base
+
+❑ ❑ Discard supernatant with a pip, avoid DNA and the disk
+
+❑ ❑ Remove excess liquid from the tube cap to minimize carryover contamination.
+
+Repeat block of steps 1 more time for a total of 2 washes of Buffer CW1
+
+### **CW2 washes**
+
+❑ ❑ Add 500 ul of Buffer CW2
+
+❑ ❑Remove tube rack from mag base, inversion mix 4x
+
+❑ ❑ Replace the tube rack on the magnetic base
+
+❑ ❑ Discard supernatant with a pip, avoid DNA and the disk
+
+❑ ❑ Remove excess liquid from the tube cap to minimize carryover contamination.
+
+Repeat block of steps 1 more time for a total of 2 washes of Buffer CW2
+
+### **Residual liquid cleanup**
+
+❑ ❑ Spin tubes on a mini-fuge for 2 s.
+
+❑ ❑ Put tubes back on magnet(into rack) and remove residual liquid
+
+if nanobind disk is blocking the bottom of the tube, gently push aside w/ pip tip
+
+Repeat block of steps 1 more time for a total of 2 residual cleanups
+
+```         
+```
+
+### **Elution**
+
+❑ Remove tubes from tube rack EB prewarmed to 70°C to improve yield
+
+❑ ❑ Add 75 ul of Buffer EB directly onto the Nanobind disk
+
+❑ ❑ Incubate for 15 min at 37 C
+
+❑ ❑ Transfer eluate to a new 1.5ml DNA lo Bind tube w/ wide bore pip tip
+
+❑ ❑ Spin the tube containing the Nanobind disk on a mini-centrifuge for 5 s. Critical for success!!
+
+❑ ❑ use a std p200 tip post initial wide tip removal for leftovers. combine eluates
+
+Repeat block of steps 1 more time for a total of 2 elutions
+
+If see a clear gel....thats the DNA
+
+❑ Pipette mix the sample 5X with a std P200 pip to homogenize & disrupt any unsolubilized “jellies” that may be present
+
+❑ Let sample rest at RT overnight to allow DNA to solubilize.
+
+"❑ Post overnight rest, pip mix 5X w/ a std P200 pipette &
+
+analyze the recovery and purity as described in QC Procedure."
+
+#### QC Steps post extraction
+
+**A. Measure DNA sample concentration on Qubit**
+
+❑Prepare 1:5 dilutions of samples to be tested. (important for high concentration samples)\
+
+-   Use P200 tip to mix to evenly resuspend genomic DNA
+
+-   Aliquot 8 ul EB into dilution tube
+
+-   Add 2 ul resuspended gDNA to dilution tube
+
+-   Reset pipette to 8 ul, mix dilution to evenly resuspend
+
+\
+❑Prepare Qubit solution master mix - use qubit calculator for reference\
+❑ Add 2 uL sample to 198 uL Qubit Solution in Qubit tubes\
+❑ Add 10 uL standards to 190 uL Qubit solution in Qubit tubes\
+❑ Incubate for 2 minutes RT while light deprived\
+❑ Read standards and samples
+
+**B. DNA Quality Assessment on Tape Station**
+
+Sensitivity: 0.5 ng/µL
+
+Linear Concentration Range 10 – 100 ng/µL
+
+Bring the usb for file transfer
+
+❑ Allow the Reagent/Buffer to equilibrate at RT for 30 minutes, protected from light.
+
+❑ Tap the ScreenTape(s) to remove any bubbles and load it into the TapeStation instrument with the barcodes facing the back of the instrument
+
+❑ Place loading tips into the instrument tip rack and empty waste bin
+
+Genomic Tape:
+
+❑ Prepare ladder by mixing 10 µL Genomic DNA Sample Buffer with 1.5 µL Genomic DNA Ladder
+
+❑ Prepare samples by mixing 10 µL Genomic DNA Sample Buffer with 1.5 µL genomic DNA sample (10 – 100 ng/µL)
+
+❑ Spin down, then vortex using IKA vortexer and adaptor at 2000 rpm for 1 min.
+
+❑ Spin down to position the sample at the bottom of the tube.
+
+## References:
+
+<https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0017209_Qubit_4_Fluorometer_UG.pdf>
+
+<https://www.agilent.com/cs/library/usermanuals/public/4150-TapeStation_SystemManual.pdf>
+
+<https://www.pacb.com/wp-content/uploads/Procedure-checklist-Homogenizing-tissue-using-cryoPREP.pdf>
+
+<https://cheapassscience.wordpress.com/2012/01/20/diy-tube-holder-for-vortex-mixers/>
+
+pac bio hmw dna extract animal tissue
+
+find the manual for the nanodrop machine
