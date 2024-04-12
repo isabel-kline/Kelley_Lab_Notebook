@@ -1,2 +1,2 @@
-# OGL_HMW
-ogl gill tissue extraction
+# Lab Notebook
+240415 OGL extraction
