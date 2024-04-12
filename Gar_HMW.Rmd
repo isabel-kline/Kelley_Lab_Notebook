@@ -19,6 +19,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 2013 Gar Tissue pulled from the Kelley Lab -80, Top Rack A, column 3, Row 4 and 5
 
+[Drive folder link](https://drive.google.com/drive/folders/18Grc9RU8b1AgnpR51Xi0QxQu8HY615x5?usp=drive_link)
+
 ### Planning
 
 Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extraction kit with modifications
@@ -145,7 +147,7 @@ Before using, add the appropriate amount of ethanol\
 
 ## References:
 
-[Nanobind HMW DNA Extraction with recommendations from rep](https://drive.google.com/file/d/1p-N6nGSbNaRR8--zRpCxt5cSUb5_4CJ3/view?usp=drive_link){.uri}
+[Nanobind HMW DNA Extraction with recommendations from rep](https://drive.google.com/file/d/1smMY0uxOhxlPnjGG64oUt5MbmyeVj_kr/view?usp=drive_link){.uri}
 
 <https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0017209_Qubit_4_Fluorometer_UG.pdf>
 

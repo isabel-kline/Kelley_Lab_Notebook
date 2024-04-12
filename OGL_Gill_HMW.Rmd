@@ -19,6 +19,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Lycodes Concolor Gill Tissue was sourced from the Ocean Genome Legacy
 
+[Drive folder link](https://drive.google.com/drive/folders/18Grc9RU8b1AgnpR51Xi0QxQu8HY615x5?usp=drive_link)
+
 ### Planning
 
 Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extraction kit with modifications
@@ -74,14 +76,14 @@ Date of Experiment:
 ### Cryofracture:
 
 |            |              |        |                      |                        |       |
-|------------|--------------|--------|----------------------|------------------------|-------|
+|------------|------------|------------|------------|--------------|------------|
 | Experiment | Date of Exp. | Sample | Cryofracture Tube ID | input tissue weight mg | notes |
 |            |              |        |                      |                        |       |
 
 ### Post Extraction:
 
 |         |                            |                   |             |                               |           |           |                                            |             |
-|---------|----------------------------|-------------------|-------------|-------------------------------|-----------|-----------|--------------------------------------------|-------------|
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Tube ID | Qubit [ng/ul] 1:5 dilution | Varioskan [ng/ul] | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | tapestation avg size [bp] from 10000-60000 | \% of total |
 |         |                            |                   |             |                               |           |           |                                            |             |
 
@@ -108,7 +110,7 @@ storage location and temperature: -20 Kelley Lab
 ## Materials List
 
 |                  |                |                               |                                      |
-|------------------|----------------|-------------------------------|--------------------------------------|
+|---------------|---------------|-------------------|-----------------------|
 | tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
 | milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
 | Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
@@ -149,7 +151,7 @@ Before using, add the appropriate amount of ethanol\
 
 ## References:
 
-[Nanobind HMW DNA Extraction with recommendations from rep](https://drive.google.com/file/d/1p-N6nGSbNaRR8--zRpCxt5cSUb5_4CJ3/view?usp=drive_link){.uri}
+[Nanobind HMW DNA Extraction with recommendations from rep](https://drive.google.com/file/d/1smMY0uxOhxlPnjGG64oUt5MbmyeVj_kr/view?usp=drive_link){.uri}
 
 <https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0017209_Qubit_4_Fluorometer_UG.pdf>
 
