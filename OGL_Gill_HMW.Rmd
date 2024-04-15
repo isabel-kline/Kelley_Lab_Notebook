@@ -57,7 +57,7 @@ SB and I went to -80 to look at OGL sample. Observed sample to be frozen in EDTA
 
 -   after removal of EDTA should a PBS wash be done
 
-    -   what effects could EDTA have on the downstream extraction steps? Proteinase inhibitor?
+    -   what effects could EDTA have on the downstream extraction steps? *improve yield?*
 
 #### Next Steps
 
