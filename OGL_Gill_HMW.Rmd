@@ -3,7 +3,7 @@ title: "OGL HMW Extraction"
 author: "Isabel Kline"
 output:  
   html_document:
-    theme: flatly
+    theme: cosmo
     toc:  true
     toc_float:  false
     number_sections:  true
@@ -18,6 +18,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Overview
 
 Lycodes Concolor Gill Tissue was sourced from the Ocean Genome Legacy
+
+details: sample A27970: gill in EDTA solution, flash frozen, put into the -80
 
 [Drive folder link](https://drive.google.com/drive/folders/18Grc9RU8b1AgnpR51Xi0QxQu8HY615x5?usp=drive_link)
 
@@ -43,13 +45,23 @@ Sample might have to be spun down slowly - *slurry concerns*
 
 # Log
 
-### Date
+### 4/15/24
 
-write up
+SB and I went to -80 to look at OGL sample. Observed sample to be frozen in EDTA.
+
+#### Q's
+
+-   should we thaw the sample, spin it down gently \*(what speed/duration is this) and remove the EDTA prior to cryofracture?
+
+-   what will happen when we spin down the gill once thawed..will it produce a slurry?
+
+-   after removal of EDTA should a PBS wash be done
+
+    -   what effects could EDTA have on the downstream extraction steps? Proteinase inhibitor?
 
 #### Next Steps
 
-write up
+SB will email Rosie from the OGL to ask if this is a situation that she has insight on and what if any steps does she perform when a sample is flash frozen in EDTA
 
 ### Date
 
@@ -76,7 +88,7 @@ Date of Experiment:
 ### Cryofracture:
 
 |            |              |        |                      |                        |       |
-|------------|------------|------------|------------|--------------|------------|
+|------------|------------|------------|------------|------------|------------|
 | Experiment | Date of Exp. | Sample | Cryofracture Tube ID | input tissue weight mg | notes |
 |            |              |        |                      |                        |       |
 
@@ -91,11 +103,13 @@ Date of Experiment:
 
 ##### Gill
 
-tube id:
+tube id: A27970
 
-box label:
+gill was placed in EDTA solution & flash frozen
 
-storage location and temperature: -80
+box label: Zoarcoid + Eelpout Tissues, OGL 4/8/24 SB
+
+storage location and temperature: -80 CBB
 
 ##### DNA extract:
 
@@ -110,7 +124,7 @@ storage location and temperature: -20 Kelley Lab
 ## Materials List
 
 |                  |                |                               |                                      |
-|---------------|---------------|-------------------|-----------------------|
+|-----------------|-----------------|------------------|---------------------|
 | tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
 | milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
 | Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
