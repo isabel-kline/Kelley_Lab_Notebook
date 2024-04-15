@@ -3,7 +3,7 @@ title: "Gar HMW Extraction"
 author: "Isabel Kline"
 output:  
   html_document:
-    theme: flatly
+    theme: cosmo
     toc:  true
     toc_float:  false
     number_sections:  true
@@ -72,7 +72,7 @@ Date of Experiment:
 ### Cryofracture:
 
 |            |              |        |                      |                        |       |
-|------------|------------|------------|------------|--------------|------------|
+|------------|------------|------------|------------|------------|------------|
 | Experiment | Date of Exp. | Sample | Cryofracture Tube ID | input tissue weight mg | notes |
 |            |              |        |                      |                        |       |
 
@@ -106,7 +106,7 @@ storage location and temperature: -20 Kelley Lab
 ## Materials List
 
 |                  |                |                               |                                      |
-|---------------|---------------|-------------------|-----------------------|
+|-----------------|-----------------|------------------|---------------------|
 | tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
 | milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
 | Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
