@@ -63,6 +63,12 @@ SB and I went to -80 to look at OGL sample. Observed sample to be frozen in EDTA
 
 SB will email Rosie from the OGL to ask if this is a situation that she has insight on and what if any steps does she perform when a sample is flash frozen in EDTA
 
+MIOK - read <https://brieflands.com/articles/amhsr-113043>
+
+EDTA was removed form sample by spinning down tooth powder at 10 g for 3 minutes, the supernatant was then discarded and protease buffer was directly added to sample to start extraction.
+
+results indicated that EDTA incubation had a better DNA yield than water buffer
+
 ### Date
 
 write up
@@ -124,7 +130,7 @@ storage location and temperature: -20 Kelley Lab
 ## Materials List
 
 |                  |                |                               |                                      |
-|-----------------|-----------------|------------------|---------------------|
+|------------------|------------------|------------------|--------------------|
 | tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
 | milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
 | Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
