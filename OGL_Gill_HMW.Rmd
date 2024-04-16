@@ -37,7 +37,7 @@ Extraction plan: Circulomics HMW DNA Extraction kit with modifications
 
 Sample might have to be spun down slowly - *slurry concerns*
 
--   skip cryofracture
+-   might cryofracture
 -   depending on how slurry the sample is post centrifugation skip removal of supernatant
 
 ##### Sequencing strategy
@@ -78,9 +78,11 @@ Rosie recco's: *"centrifuge, remove supernatant, and go straight to extraction. 
 
 When the sample was thawed I transferred it from the cryovial to a 2ml Protein lo bind tube with a wide pipette tip and spun it down at 3G for 1.5min. I saw a good amount of intact tissue so I went ahead and transferred the EDTA supernatant to a 2ml protein lo bind tube for just in case.
 
-From there I weighed out the sample and had 53.2 mg. Proceeded to cryofracture with 5x hits.
+-   From there I weighed out the sample and had 53.2 mg.
 
-EDTA tissue supernatant was put in the 4C.
+    -   EDTA tissue supernatant was put in the 4C.
+
+-   Proceeded to cryofracture with 5x hits and continued on with protocol
 
 #### Next Steps
 
@@ -116,7 +118,7 @@ Date of Experiment:
 
 ## Sample Storage
 
-##### Gill - sample is now consumed 
+##### Gill - sample is now consumed
 
 tube id: A27970
 
