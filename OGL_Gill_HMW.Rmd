@@ -25,7 +25,7 @@ details: sample A27970: gill in EDTA solution, flash frozen, put into the -80
 
 ### Planning
 
-Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extraction kit with modifications
+Extraction plan: Circulomics HMW DNA Extraction kit with modifications
 
 -   aim for up to 50 mg of sample input
 
@@ -37,7 +37,8 @@ Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extract
 
 Sample might have to be spun down slowly - *slurry concerns*
 
--   might skip cryofracture depending on how intact the sample is
+-   skip cryofracture
+-   depending on how slurry the sample is post centrifugation skip removal of supernatant
 
 ##### Sequencing strategy
 
@@ -69,7 +70,9 @@ EDTA was removed form sample by spinning down tooth powder at 10 g for 3 minutes
 
 results indicated that EDTA incubation had a better DNA yield than water buffer
 
-### Date
+### 4/16/24
+
+Rosie recco's: *"centrifuge, remove supernatant, and go straight to extraction. The EDTA solution should not interfere with extraction. We have had success extracting DNA straight from EDTA when tissue was too dissolved to be removed from the solution."*
 
 write up
 
