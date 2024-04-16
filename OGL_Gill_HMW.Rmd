@@ -33,7 +33,7 @@ Extraction plan: Circulomics HMW DNA Extraction kit with modifications
 
 -   centrifuge spins will be at 10G
 
--   warm EB to 70C to improve yield
+-   warm EB to 70C to improve yield, incubate at 37c during elution for 15 min 2x
 
 Sample might have to be spun down slowly - *slurry concerns*
 
@@ -84,9 +84,11 @@ When the sample was thawed I transferred it from the cryovial to a 2ml Protein l
 
 -   Proceeded to cryofracture with 5x hits and continued on with protocol
 
+-   Got to overnight RT rest of elution
+
 #### Next Steps
 
-write up
+QC 4/17/24
 
 ### Notes
 
@@ -111,10 +113,10 @@ Date of Experiment:
 
 ### Post Extraction:
 
-|         |                            |                   |             |                               |           |           |                                            |             |
+|               |                            |                   |             |                               |           |           |                                            |             |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Tube ID | Qubit [ng/ul] 1:5 dilution | Varioskan [ng/ul] | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | tapestation avg size [bp] from 10000-60000 | \% of total |
-|         |                            |                   |             |                               |           |           |                                            |             |
+| Tube ID       | Qubit [ng/ul] 1:5 dilution | Varioskan [ng/ul] | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | tapestation avg size [bp] from 10000-60000 | \% of total |
+| ebony ogl hmw |                            |                   |             |                               |           |           |                                            |             |
 
 ## Sample Storage
 
@@ -141,19 +143,23 @@ storage location and temperature: 4C Kelley Lab
 ## Materials List
 
 |                  |                |                               |                                      |
-|------------------|------------------|------------------|-------------------|
-|                  |                | Circulomics Kit               | DNA lo bind tubes for sample storage |
-|                  | 100% ethanol   | RNase A                       | **things to label**                  |
-|                  | Ice n bucket   | mag rack                      | smash bag                            |
+|---------------|------------------|------------------|-------------------|
+| tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
+| milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
+| Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
 | 100% Isopropanol | p1000 tips     | NFW-optional                  | 2ml Protein loBind                   |
 | ice bucket       | p200 tips      | protein lo bind tubes 1.5/2mL | 1.5 mL Protein LoBind                |
-|                  | Dissection kit | Qubit dsDNA BR                | 1.5 mL DNA LoBind                    |
+| hammer           | Dissection kit | Qubit dsDNA BR                | 1.5 mL DNA LoBind                    |
 
 ## Kit Particulars & Lot Numbers
 
-Circulomics kit
+| part             | part no   | lot     |
+|------------------|-----------|---------|
+| Circulomics kit  |           | 10043   |
+| RNase A          | 12091-021 | 2205277 |
+| tissueTUBE TT05M |           | 004895  |
 
-Kit lot number:
+Circulomics kit details
 
 |                                                              |
 |--------------------------------------------------------------|
