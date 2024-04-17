@@ -88,13 +88,37 @@ When the sample was thawed I transferred it from the cryovial to a 2ml Protein l
 
 #### Next Steps
 
-QC 4/17/24
+QC 4/17/24 - qubit and uDrop
+
+### 4/16/24
+
+took out 10 ul of sample to create a QC aliquot
+
+from QC aliquot. took out 2 ul for a 1:5 ul dilution QC aliquot
+
+Qubit and uDrop completed on a 1:5 dilution of eluted sample and undiluted sample
+
+sample submission requirements for multiplexed Davis Pac Bio sequencing have been met
+
+<https://dnatech.genomecenter.ucdavis.edu/sample-requirements/>
+
+Zymo Research DNA Elution Buffer is 10 mM Tris, pH 8.5, 0.1 mM EDTA
+
+The composition of Buffer EB is: 10 mM Tris-Cl, pH 8.5
+
+#### Next Steps
+
+Run Tapestation with Gar HMW extraction
 
 ### Notes
 
 Tissue selection: Fish skeletal muscle is not recommended if other fish tissues are available (e.g., heart, testes, fin clip, kidney)
 
 Double input of sample if using skeletal muscle. Still a good candidate b/c parasite fraction might be lower
+
+Zymo Research DNA Elution Buffer is 10 mM Tris, pH 8.5, 0.1 mM EDTA
+
+The composition of Buffer EB is: 10 mM Tris-Cl, pH 8.5
 
 # Metadata
 
@@ -113,10 +137,10 @@ Date of Experiment:
 
 ### Post Extraction:
 
-|               |                            |                   |             |                               |           |           |                                            |             |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Tube ID       | Qubit [ng/ul] 1:5 dilution | Varioskan [ng/ul] | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | tapestation avg size [bp] from 10000-60000 | \% of total |
-| ebony ogl hmw |                            |                   |             |                               |           |           |                                            |             |
+|               |                            |             |                               |           |           |                                            |             |
+|--------|--------|--------|--------|--------|--------|--------|--------|
+| Tube ID       | Qubit [ng/ul] 1:5 dilution | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | tapestation avg size [bp] from 10000-60000 | \% of total |
+| ebony ogl hmw | 52.6                       | 75          | 19.725                        | 1.8       | 2.1       |                                            |             |
 
 ## Sample Storage
 
