@@ -158,7 +158,7 @@ storage location and temperature: -80 CBB, sample is now consumed
 
 tube id: OGL Gill HMW
 
-box label:
+box: pink box
 
 storage location and temperature: 4C Kelley Lab
 

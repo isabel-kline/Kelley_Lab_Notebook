@@ -127,17 +127,12 @@ storage location and temperature: 4C
 
 ## Kit Particulars & Lot Numbers
 
-##### Cryofracture
+| part             | part no | lot    |
+|------------------|---------|--------|
+| Circulomics kit  |         | 10043  |
+| tissueTUBE TT05M |         | 004895 |
 
-|                  |             |     |
-|------------------|-------------|-----|
-| Materials        | part number | lot |
-| tissueTUBE TT05M | 520139      |     |
-| milliTUBE 2mL    | 520132      |     |
-
-##### Circulomics HMW DNA Extraction
-
-Kit lot number:
+##### Circulomics Kit components
 
 |                                                              |
 |--------------------------------------------------------------|
