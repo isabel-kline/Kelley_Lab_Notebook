@@ -39,13 +39,15 @@ Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extract
 
 # Log
 
-### Date
+### 4/18/2024
 
-write up
+Sample was stored in the -80, removed and thawed on ice on 4/12/24, and placed in the 4C until today's extraction.
+
+A portion of the muscle sample was apportioned, weighed and cryofractured. Protocol execution was unremarkable.
 
 #### Next Steps
 
-write up
+QC on 4/20/24
 
 ### Date
 
@@ -71,48 +73,57 @@ Date of Experiment:
 
 ### Cryofracture:
 
-|            |              |        |                      |                        |       |
-|------------|--------------|--------|----------------------|------------------------|-------|
-| Experiment | Date of Exp. | Sample | Cryofracture Tube ID | input tissue weight mg | notes |
-|            |              |        |                      |                        |       |
++------------+--------------+------------------+----------------------+------------------------+----------------------------------+
+| Experiment | Date of Exp. | Sample           | Cryofracture Tube ID | input tissue weight mg | notes                            |
++------------+--------------+------------------+----------------------+------------------------+----------------------------------+
+| 21         | 4/18/24      | Male Gar Muscle  | Gar                  | 49.5                   | muscle initially weighed 114 mg  |
+|            |              |                  |                      |                        |                                  |
+|            |              | 20/6/13          |                      |                        |                                  |
++------------+--------------+------------------+----------------------+------------------------+----------------------------------+
 
 ### Post Extraction:
 
-|         |                            |                   |             |                               |           |           |                                            |             |
-|---------|----------------------------|-------------------|-------------|-------------------------------|-----------|-----------|--------------------------------------------|-------------|
++---------+----------------------------+-------------------+-------------+-------------------------------+-----------+-----------+--------------------------------------------+-------------+
 | Tube ID | Qubit [ng/ul] 1:5 dilution | Varioskan [ng/ul] | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | tapestation avg size [bp] from 10000-60000 | \% of total |
++---------+----------------------------+-------------------+-------------+-------------------------------+-----------+-----------+--------------------------------------------+-------------+
 |         |                            |                   |             |                               |           |           |                                            |             |
++---------+----------------------------+-------------------+-------------+-------------------------------+-----------+-----------+--------------------------------------------+-------------+
 
 ## Sample Storage
 
 ##### Tissue
 
-tube id:
+tube id: Gar muscle male 20/6/13
 
-box label:
+box label: pink box
 
-storage location and temperature: -80
+storage location and temperature: 4C
 
-##### DNA extract:
+##### DNA extract: 
 
-tube id:
+tube id: Gar HMW
 
-box label:
+box label: pink box
 
-storage location and temperature: -20 Kelley Lab
+storage location and temperature: 4C
 
 # [Exp21_Protocol](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri}
 
 ## Materials List
 
-|                  |                |                               |                                      |
-|------------------|----------------|-------------------------------|--------------------------------------|
++------------------+----------------+-------------------------------+--------------------------------------+
 | tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
++------------------+----------------+-------------------------------+--------------------------------------+
 | milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
++------------------+----------------+-------------------------------+--------------------------------------+
 | Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
++------------------+----------------+-------------------------------+--------------------------------------+
 | 100% Isopropanol | p1000 tips     | NFW-optional                  | 2ml Protein loBind                   |
++------------------+----------------+-------------------------------+--------------------------------------+
 | ice bucket       | p200 tips      | protein lo bind tubes 1.5/2mL | 1.5 mL Protein LoBind                |
++------------------+----------------+-------------------------------+--------------------------------------+
 | hammer           | Dissection kit | Qubit dsDNA BR                | 1.5 mL DNA LoBind                    |
++------------------+----------------+-------------------------------+--------------------------------------+
 
 ## Kit Particulars & Lot Numbers
 
