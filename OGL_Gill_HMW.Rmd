@@ -90,7 +90,7 @@ When the sample was thawed I transferred it from the cryovial to a 2ml Protein l
 
 QC 4/17/24 - qubit and uDrop
 
-### 4/16/24
+### 4/17/24
 
 took out 10 ul of sample to create a QC aliquot
 
