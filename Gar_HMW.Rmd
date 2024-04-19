@@ -73,21 +73,62 @@ Date of Experiment:
 
 ### Cryofracture:
 
-+------------+--------------+------------------+----------------------+------------------------+----------------------------------+
-| Experiment | Date of Exp. | Sample           | Cryofracture Tube ID | input tissue weight mg | notes                            |
-+------------+--------------+------------------+----------------------+------------------------+----------------------------------+
-| 21         | 4/18/24      | Male Gar Muscle  | Gar                  | 49.5                   | muscle initially weighed 114 mg  |
-|            |              |                  |                      |                        |                                  |
-|            |              | 20/6/13          |                      |                        |                                  |
-+------------+--------------+------------------+----------------------+------------------------+----------------------------------+
++------------+--------------+-----------------+----------------------+------------------------+---------------------------------+
+| Experiment | Date of Exp. | Sample          | Cryofracture Tube ID | input tissue weight mg | notes                           |
++------------+--------------+-----------------+----------------------+------------------------+---------------------------------+
+| 21         | 4/18/24      | Male Gar Muscle | Gar                  | 49.5                   | muscle initially weighed 114 mg |
+|            |              |                 |                      |                        |                                 |
+|            |              | 20/6/13         |                      |                        |                                 |
++------------+--------------+-----------------+----------------------+------------------------+---------------------------------+
 
 ### Post Extraction:
 
-+---------+----------------------------+---------------------------------------------------+-------------+-------------------------------+-----------+-----------+--------------------------------------------+-------------+
-| Tube ID | Qubit [ng/ul] 1:5 dilution | ng/ul of undiluted based on measured 1:5 dilution | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | tapestation avg size [bp] from 10000-60000 | \% of total |
-+---------+----------------------------+---------------------------------------------------+-------------+-------------------------------+-----------+-----------+--------------------------------------------+-------------+
-| Gar HMW | 12.6                       | 63                                                | 75          | 4.725                         | 1.7       | .95       |                                            |             |
-+---------+----------------------------+---------------------------------------------------+-------------+-------------------------------+-----------+-----------+--------------------------------------------+-------------+
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 4%" />
+<col style="width: 6%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Tube ID</p></td>
+<td><p>Qubit ng/ul 1:5 dilution</p></td>
+<td><p>ng/ul of undiluted based on measured 1:5 dilution</p></td>
+<td><p>elution vol</p></td>
+<td><p>total yield micrograms ug</p></td>
+<td><p>A260/A280</p></td>
+<td><p>A260/A230</p></td>
+<td><p>tapestation avg size bp from 14779 - &gt;60000</p></td>
+<td><p>% of total</p></td>
+<td><p>DIN</p></td>
+</tr>
+<tr class="even">
+<td><p>Gar HMW</p></td>
+<td><p>12.6</p></td>
+<td><p>63</p></td>
+<td><p>75</p></td>
+<td><p>4.725</p></td>
+<td><p>1.7</p></td>
+<td><p>.95</p></td>
+<td><p>&gt;60000</p></td>
+<td><p>83.02</p></td>
+<td><p>9.8</p></td>
+</tr>
+</tbody>
+</table>
+
+#### Tapestation Results
+
+![Gar Muscle Extraction is Col C1](images/240419_Ebony_OGL_Gar_Tapestation-01.jpg)
+
+![](images/240419_Gar_HMW_Tapestation.jpeg)
 
 ## Sample Storage
 
@@ -99,7 +140,7 @@ box label: pink box
 
 storage location and temperature: 4C
 
-##### DNA extract: 
+##### DNA extract:
 
 tube id: Gar HMW
 
@@ -114,7 +155,7 @@ storage location and temperature: 4C
 +------------------+----------------+-------------------------------+--------------------------------------+
 | tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
 +------------------+----------------+-------------------------------+--------------------------------------+
-| milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
+| milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
 +------------------+----------------+-------------------------------+--------------------------------------+
 | Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
 +------------------+----------------+-------------------------------+--------------------------------------+
