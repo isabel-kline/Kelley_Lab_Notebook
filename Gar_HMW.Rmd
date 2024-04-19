@@ -49,9 +49,15 @@ A portion of the muscle sample was apportioned, weighed and cryofractured. Proto
 
 QC on 4/20/24
 
-### Date
+### 4/19/24
 
-write up
+Made a 1:5 dilution of HMW sample using 2 ul of sample and 8 ub EB
+
+consumed 1 ul of dilution for HS dsDNA Qubit Quantitative assessment, consumed 2 ul of dilution for uDrop Qualitative assessment
+
+Based on results of Qubit decided to consume 1 ul of undiluted sample for Tapestation fragment analysis
+
+decided to put undiluted Gar HMW sample in thermomixer set at 24 C. Jellies of unsolubilized DNA still appeared present in tube. Per recco's of std protocol 2 hours additional time at RT should help with solubilization. Will want to redo quant and qual with fresh dilution post incubation.
 
 #### Next Steps
 
