@@ -5,7 +5,7 @@ output:
   html_document:
     theme: cosmo
     toc:  true
-    toc_float:  false
+    toc_float:  true
     number_sections:  true
 ---
 
@@ -37,38 +37,6 @@ Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extract
 
 *Sample will be sent to Davis for Pac Bio Sequencing I assume*
 
-# Log
-
-### 4/18/2024
-
-Sample was stored in the -80, removed and thawed on ice on 4/12/24, and placed in the 4C until today's extraction.
-
-A portion of the muscle sample was apportioned, weighed and cryofractured. Protocol execution was unremarkable.
-
-#### Next Steps
-
-QC on 4/20/24
-
-### 4/19/24
-
-Made a 1:5 dilution of HMW sample using 2 ul of sample and 8 ub EB
-
-consumed 1 ul of dilution for HS dsDNA Qubit Quantitative assessment, consumed 2 ul of dilution for uDrop Qualitative assessment
-
-Based on results of Qubit decided to consume 1 ul of undiluted sample for Tapestation fragment analysis
-
-decided to put undiluted Gar HMW sample in thermomixer set at 24 C. Jellies of unsolubilized DNA still appeared present in tube. Per recco's of std protocol 2 hours additional time at RT should help with solubilization. Will want to redo quant and qual with fresh dilution post incubation.
-
-#### Next Steps
-
-write up
-
-### Notes
-
-Tissue selection: Fish skeletal muscle is not recommended if other fish tissues are available (e.g., heart, testes, fin clip, kidney)
-
-Double input of sample if using skeletal muscle. Still a good candidate b/c parasite fraction might be lower
-
 # Metadata
 
 ## Sample Data
@@ -89,18 +57,18 @@ Date of Experiment:
 
 ### Post Extraction:
 
-<table>
+<table style="width:99%;">
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 4%" />
-<col style="width: 6%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -127,14 +95,28 @@ Date of Experiment:
 <td><p>83.02</p></td>
 <td><p>9.8</p></td>
 </tr>
+<tr class="odd">
+<td><p>2nd QC aliquot</p></td>
+<td><p>17.6</p></td>
+<td><p>88</p></td>
+<td><p>75</p></td>
+<td><p>6.6</p></td>
+<td><p>1.7</p></td>
+<td><p>.8</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 
 #### Tapestation Results
 
-![Gar Muscle Extraction is Col C1](images/240419_Ebony_OGL_Gar_Tapestation-01.jpg)
+![Gar Muscle Extraction is Col C1](images/240419_Ebony_OGL_Gar_Tapestation-01.jpg){alt="Gar Muscle Extraction is Col C1"}
 
 ![](images/240419_Gar_HMW_Tapestation.jpeg)
+
+## 
 
 ## Sample Storage
 
@@ -197,6 +179,44 @@ Buffer CW1 and CW2 are supplied as concentrates.\
 This kit uses CW1 & CW2 a 60% final ethanol concentration.\
 Before using, add the appropriate amount of ethanol\
 (96–100%) to Buffer CW1 and Buffer CW2 as indicated on the bottles
+
+# Log
+
+### 4/18/2024
+
+Sample was stored in the -80, removed and thawed on ice on 4/12/24, and placed in the 4C until today's extraction.
+
+A portion of the muscle sample was apportioned, weighed and cryofractured. Protocol execution was unremarkable.
+
+#### Next Steps
+
+QC on 4/20/24
+
+### 4/19/24
+
+Made a 1:5 dilution of HMW sample using 2 ul of sample and 8 ub EB
+
+consumed 1 ul of dilution for HS dsDNA Qubit Quantitative assessment, consumed 2 ul of dilution for uDrop Qualitative assessment
+
+Based on results of Qubit decided to consume 1 ul of undiluted sample for Tapestation fragment analysis
+
+decided to put undiluted Gar HMW sample in thermomixer set at 24 C. Jellies of unsolubilized DNA still appeared present in tube. Per recco's of std protocol 2 hours additional time at RT should help with solubilization. Will want to redo quant and qual with fresh dilution post incubation.
+
+### 4/22/24
+
+Made a second 1:5 aliquot of the Gar HMW sample using 2 ul of sample and 8 ub EB
+
+Redid Qubit and udrop and did additional nanodrop qualitative assessment
+
+consumed 6 ul of 1:5 for qubit, udrop and nanodrop QC
+
+results showed a low 260/230 and a decent A260/280
+
+### Notes
+
+Tissue selection: Fish skeletal muscle is not recommended if other fish tissues are available (e.g., heart, testes, fin clip, kidney)
+
+Double input of sample if using skeletal muscle. Still a good candidate b/c parasite fraction might be lower
 
 ## References:
 
