@@ -57,62 +57,15 @@ Date of Experiment:
 
 ### Post Extraction:
 
-<table style="width:99%;">
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Tube ID</p></td>
-<td><p>Qubit ng/ul 1:5 dilution</p></td>
-<td><p>ng/ul of undiluted based on measured 1:5 dilution</p></td>
-<td><p>elution vol</p></td>
-<td><p>total yield micrograms ug</p></td>
-<td><p>A260/A280</p></td>
-<td><p>A260/A230</p></td>
-<td><p>tapestation avg size bp from 14779 - &gt;60000</p></td>
-<td><p>% of total</p></td>
-<td><p>DIN</p></td>
-</tr>
-<tr class="even">
-<td><p>Gar HMW</p></td>
-<td><p>12.6</p></td>
-<td><p>63</p></td>
-<td><p>75</p></td>
-<td><p>4.725</p></td>
-<td><p>1.7</p></td>
-<td><p>.95</p></td>
-<td><p>&gt;60000</p></td>
-<td><p>83.02</p></td>
-<td><p>9.8</p></td>
-</tr>
-<tr class="odd">
-<td><p>2nd QC aliquot</p></td>
-<td><p>17.6</p></td>
-<td><p>88</p></td>
-<td><p>75</p></td>
-<td><p>6.6</p></td>
-<td><p>1.7</p></td>
-<td><p>.8</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+|                |                          |                                                   |             |                           |           |           |                                              |             |     |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Tube ID        | Qubit ng/ul 1:5 dilution | ng/ul of undiluted based on measured 1:5 dilution | elution vol | total yield micrograms ug | A260/A280 | A260/A230 | tapestation avg size bp from 14779 - \>60000 | \% of total | DIN |
+| Gar HMW        | 12.6                     | 63                                                | 75          | 4.725                     | 1.7       | .95       | \>60000                                      | 83.02       | 9.8 |
+| 2nd QC aliquot | 17.6                     | 88                                                | 75          | 6.6                       | 1.7       | .8        |                                              |             |     |
 
 #### Tapestation Results
 
-![Gar Muscle Extraction is Col C1](images/240419_Ebony_OGL_Gar_Tapestation-01.jpg){alt="Gar Muscle Extraction is Col C1"}
+![Gar Muscle Extraction is Col C1](images/240419_Ebony_OGL_Gar_Tapestation-01.jpg)
 
 ![](images/240419_Gar_HMW_Tapestation.jpeg)
 
@@ -136,7 +89,7 @@ box label: pink box
 
 storage location and temperature: 4C
 
-# [Exp21_Protocol](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri}
+# [Exp21_Extraction_Protocol](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri}
 
 ## Materials List
 
@@ -180,9 +133,21 @@ This kit uses CW1 & CW2 a 60% final ethanol concentration.\
 Before using, add the appropriate amount of ethanol\
 (96–100%) to Buffer CW1 and Buffer CW2 as indicated on the bottles
 
+# [Exp21_3.1xBeadCleanup_Protocol](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=sharing){.uri}
+
+## Materials List
+
+|                                                                          |
+|--------------------------------------------------------------------------|
+| AMPure PB Beads                                                          |
+| Elution Buffer ~~Pacific Biosciences 101-633-500~~ 10 mM Tris-Cl, pH 8.5 |
+| 2 ml tube                                                                |
+| Wide Orifice Tips                                                        |
+| 1X dsDNA HS Assay kit & Qubit 4.0 fluorometer                            |
+
 # Log
 
-### 4/18/2024
+### April 18, 2024
 
 Sample was stored in the -80, removed and thawed on ice on 4/12/24, and placed in the 4C until today's extraction.
 
@@ -192,7 +157,7 @@ A portion of the muscle sample was apportioned, weighed and cryofractured. Proto
 
 QC on 4/20/24
 
-### 4/19/24
+### April 19, 2024
 
 Made a 1:5 dilution of HMW sample using 2 ul of sample and 8 ub EB
 
@@ -202,7 +167,7 @@ Based on results of Qubit decided to consume 1 ul of undiluted sample for Tapest
 
 decided to put undiluted Gar HMW sample in thermomixer set at 24 C. Jellies of unsolubilized DNA still appeared present in tube. Per recco's of std protocol 2 hours additional time at RT should help with solubilization. Will want to redo quant and qual with fresh dilution post incubation.
 
-### 4/22/24
+### April 22, 2024
 
 Made a second 1:5 aliquot of the Gar HMW sample using 2 ul of sample and 8 ub EB
 
@@ -217,6 +182,20 @@ Notes:
 might have transferred the " waxy or opaque residue" during step 20 of the extraction... Transfer up to 300 μL of supernatant thinking it was the gel like matrix of DNA.
 
 Potential solves for the low 260/230 include the 3.1x Bead Size Selection or the Genomic DNA Clean & Concentrator®-10 or a redo of the extraction.
+
+### April 23, 2024
+
+To address the low 260/230 will be doing a 3.1x bead cleanup on the sample
+
+*Also want sample concentration to be above 100 ng/ul post clean up*
+
+Have 70 ul of 88ng/ul sample = 6.6 micrograms.
+
+Assuming 20% loss from bead cleanup will have 4.9 micrograms post clean up
+
+32 ul should give a concentration of 150 ng/ul
+
+#### Next Steps
 
 ### Notes
 
