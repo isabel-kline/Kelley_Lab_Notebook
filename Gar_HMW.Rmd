@@ -4,6 +4,7 @@ author: "Isabel Kline"
 output:  
   html_document:
     theme: cosmo
+    highlight: espresso
     toc:  true
     toc_float:  true
     number_sections:  true
@@ -58,7 +59,7 @@ Date of Experiment:
 ### Post Extraction:
 
 |                |                          |                                                   |             |                           |           |           |                                              |             |     |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Tube ID        | Qubit ng/ul 1:5 dilution | ng/ul of undiluted based on measured 1:5 dilution | elution vol | total yield micrograms ug | A260/A280 | A260/A230 | tapestation avg size bp from 14779 - \>60000 | \% of total | DIN |
 | Gar HMW        | 12.6                     | 63                                                | 75          | 4.725                     | 1.7       | .95       | \>60000                                      | 83.02       | 9.8 |
 | 2nd QC aliquot | 17.6                     | 88                                                | 75          | 6.6                       | 1.7       | .8        |                                              |             |     |
@@ -89,7 +90,7 @@ box label: pink box
 
 storage location and temperature: 4C
 
-# [Exp21_Extraction_Protocol](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri}
+# [Exp21a](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Extraction
 
 ## Materials List
 
@@ -133,17 +134,21 @@ This kit uses CW1 & CW2 a 60% final ethanol concentration.\
 Before using, add the appropriate amount of ethanol\
 (96–100%) to Buffer CW1 and Buffer CW2 as indicated on the bottles
 
-# [Exp21_3.1xBeadCleanup_Protocol](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=sharing){.uri}
+# [Exp21b](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=sharing){.uri} 3.1xBeadCleanup
 
 ## Materials List
 
-|                                                                          |
-|--------------------------------------------------------------------------|
++--------------------------------------------------------------------------+
 | AMPure PB Beads                                                          |
++--------------------------------------------------------------------------+
 | Elution Buffer ~~Pacific Biosciences 101-633-500~~ 10 mM Tris-Cl, pH 8.5 |
++--------------------------------------------------------------------------+
 | 2 ml tube                                                                |
++--------------------------------------------------------------------------+
 | Wide Orifice Tips                                                        |
++--------------------------------------------------------------------------+
 | 1X dsDNA HS Assay kit & Qubit 4.0 fluorometer                            |
++--------------------------------------------------------------------------+
 
 # Log
 
