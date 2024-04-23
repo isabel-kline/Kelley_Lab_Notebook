@@ -4,7 +4,7 @@ author: "Isabel Kline"
 output:  
   html_document:
     theme: cosmo
-    highlight: espresso
+    highlight: tango
     toc:  true
     toc_float:  true
     number_sections:  true
@@ -148,6 +148,8 @@ Before using, add the appropriate amount of ethanol\
 | Wide Orifice Tips                                                        |
 +--------------------------------------------------------------------------+
 | 1X dsDNA HS Assay kit & Qubit 4.0 fluorometer                            |
++--------------------------------------------------------------------------+
+| 1.5ml/2ml tube magnet                                                    |
 +--------------------------------------------------------------------------+
 
 # Log
