@@ -44,19 +44,23 @@ Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extract
 
 ## Sample Data
 
-Experiment
+Experiment 21
 
-Date of Experiment:
+Month of Experiment: 4/24
 
 ### Cryofracture:
 
-+------------+--------------+-----------------+----------------------+------------------------+---------------------------------+
-| Experiment | Date of Exp. | Sample          | Cryofracture Tube ID | input tissue weight mg | notes                           |
-+------------+--------------+-----------------+----------------------+------------------------+---------------------------------+
-| 21         | 4/18/24      | Male Gar Muscle | Gar                  | 49.5                   | muscle initially weighed 114 mg |
-|            |              |                 |                      |                        |                                 |
-|            |              | 20/6/13         |                      |                        |                                 |
-+------------+--------------+-----------------+----------------------+------------------------+---------------------------------+
++------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
+| Experiment | Date of Exp. | Sample          | Cryofracture Tube ID | input tissue weight mg | notes                             |
++------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
+| 21a        | 4/18/24      | Male Gar Muscle | Gar                  | 49.5                   | muscle initially weighed 114 mg   |
+|            |              |                 |                      |                        |                                   |
+|            |              | 20/6/13         |                      |                        |                                   |
++------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
+| 21c        | 4/25/24      | Male Gar Muscle | Gar                  | 45                     | other half of 21a skeletal muscle |
+|            |              |                 |                      |                        |                                   |
+|            |              | 20/6/13         |                      |                        |                                   |
++------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
 
 ### Post Extraction:
 
@@ -66,6 +70,7 @@ Date of Experiment:
 | Gar HMW                | 12.6                     | 63                                                | 75          | 4.725                     | 1.7       | .95       | \>60000                                      | 83.02       | 9.8 |
 | 2nd QC aliquot         | 17.6                     | 88                                                | 75          | 6.6                       | 1.7       | .8        |                                              |             |     |
 | Post 3.1x bead cleanup | 7.77                     | 38.85                                             | 30          | 1.1655                    | 1.846     | 0.847     |                                              |             |     |
+| Gar HiFi               |                          |                                                   |             |                           |           |           |                                              |             |     |
 
 #### Tapestation Results
 
@@ -155,6 +160,12 @@ Before using, add the appropriate amount of ethanol\
 | 1.5ml/2ml tube magnet                                                    |
 +--------------------------------------------------------------------------+
 
+# Exp21c Extraction
+
+Same protocol as 21a but with the other half of the skeletal muscle tissue
+
+input 45 mg
+
 # Log
 
 ### April 18, 2024
@@ -206,6 +217,12 @@ Assuming 20% loss from bead cleanup will have 4.9 micrograms post clean up
 32 ul should give a concentration of 150 ng/ul
 
 #### Next Steps
+
+to be continued
+
+### April 25, 2024
+
+Same protocol as 21a but with the other half of the skeletal muscle tissue
 
 ### Notes
 
