@@ -55,14 +55,14 @@ Date of Experiment:
 ### Cryofracture:
 
 |            |              |                             |                      |                        |                              |
-|------------|------------|------------|------------|------------|------------|
+|------------|--------------|-----------------------------|----------------------|------------------------|------------------------------|
 | Experiment | Date of Exp. | Sample                      | Cryofracture Tube ID | input tissue weight mg | notes                        |
 | 20         | 4/16/24      | Lycode concolor Gill Tissue | Gill                 | 53.2                   | EDTA supernatant was removed |
 
 ### Post Extraction:
 
 |               |                            |             |                               |           |           |                                              |             |     |
-|---------|---------|---------|---------|---------|------------|-------------|--|--|
+|---------------|----------------------------|-------------|-------------------------------|-----------|-----------|----------------------------------------------|-------------|-----|
 | Tube ID       | Qubit [ng/ul] 1:5 dilution | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | tapestation avg size [bp] from 6262- \>60000 | \% of total | DIN |
 | ebony ogl hmw | 52.6                       | 75          | 19.725                        | 1.8       | 2.1       | 41958                                        | 95          | 8.2 |
 
@@ -97,7 +97,7 @@ storage location and temperature: 4C Kelley Lab
 ## Materials List
 
 |                  |                |                               |                                      |
-|------------------|------------------|------------------|-------------------|
+|------------------|----------------|-------------------------------|--------------------------------------|
 | tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
 | milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
 | Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
