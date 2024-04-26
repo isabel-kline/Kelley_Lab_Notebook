@@ -57,7 +57,7 @@ Month of Experiment: 4/24
 |            |              |                 |                      |                        |                                   |
 |            |              | 20/6/13         |                      |                        |                                   |
 +------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
-| 21c        | 4/25/24      | Male Gar Muscle | Gar                  | 45                     | other half of 21a skeletal muscle |
+| 21c        | 4/25/24      | Male Gar Muscle | Gar II               | 45                     | other half of 21a skeletal muscle |
 |            |              |                 |                      |                        |                                   |
 |            |              | 20/6/13         |                      |                        |                                   |
 +------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
@@ -70,7 +70,7 @@ Month of Experiment: 4/24
 | Gar HMW                | 12.6                     | 63                                                | 75          | 4.725                     | 1.7       | .95       | \>60000                                      | 83.02       | 9.8 |
 | 2nd QC aliquot         | 17.6                     | 88                                                | 75          | 6.6                       | 1.7       | .8        |                                              |             |     |
 | Post 3.1x bead cleanup | 7.77                     | 38.85                                             | 30          | 1.1655                    | 1.846     | 0.847     |                                              |             |     |
-| Gar HiFi               |                          |                                                   |             |                           |           |           |                                              |             |     |
+| Gar HiFi               | 5.79                     | 28.95                                             | 75          | 2.17125                   | 1.837     | 1.27      |                                              |             |     |
 
 #### Tapestation Results
 
@@ -78,21 +78,15 @@ Month of Experiment: 4/24
 
 ![](images/240419_Gar_HMW_Tapestation.jpeg)
 
-## 
-
 ## Sample Storage
 
 ##### Tissue
 
-tube id: Gar muscle male 20/6/13
-
-box label: pink box
-
-storage location and temperature: 4C
+tube id: Gar muscle male 20/6/13, sample is now fully consumed
 
 ##### DNA extract:
 
-tube id: Gar HMW
+tube id: Gar HMW, Gar HiFi
 
 box label: pink box
 
@@ -160,7 +154,7 @@ Before using, add the appropriate amount of ethanol\
 | 1.5ml/2ml tube magnet                                                    |
 +--------------------------------------------------------------------------+
 
-# Exp21c Extraction
+# [Exp21c](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Extraction
 
 Same protocol as 21a but with the other half of the skeletal muscle tissue
 
@@ -223,6 +217,12 @@ to be continued
 ### April 25, 2024
 
 Same protocol as 21a but with the other half of the skeletal muscle tissue
+
+avoided transfer of impurities at step 20 as much as possible this time around
+
+### April 26, 2024
+
+QC results show low yield, good A260/280 and an A260/230 that is better than the first extraction but is still not sufficient for sample submission to Davis for PacBio
 
 ### Notes
 
