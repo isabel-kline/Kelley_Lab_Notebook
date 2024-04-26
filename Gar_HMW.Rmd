@@ -65,7 +65,7 @@ Month of Experiment: 4/24
 ### Post Extraction:
 
 |                        |                          |                                                   |             |                           |           |           |                                              |             |     |
-|------------------------|--------------------------|---------------------------------------------------|-------------|---------------------------|-----------|-----------|----------------------------------------------|-------------|-----|
+|---------|--------|--------|------|--------|--------|--------|--------|--------|--------|
 | Tube ID                | Qubit ng/ul 1:5 dilution | ng/ul of undiluted based on measured 1:5 dilution | elution vol | total yield micrograms ug | A260/A280 | A260/A230 | tapestation avg size bp from 14779 - \>60000 | \% of total | DIN |
 | Gar HMW                | 12.6                     | 63                                                | 75          | 4.725                     | 1.7       | .95       | \>60000                                      | 83.02       | 9.8 |
 | 2nd QC aliquot         | 17.6                     | 88                                                | 75          | 6.6                       | 1.7       | .8        |                                              |             |     |
@@ -96,14 +96,19 @@ storage location and temperature: 4C
 
 ## Materials List
 
-|                  |                |                               |                                      |
-|------------------|----------------|-------------------------------|--------------------------------------|
++------------------+----------------+-------------------------------+--------------------------------------+
 | tissueTUBE TT05M | Slammer kit    | Circulomics Kit               | DNA lo bind tubes for sample storage |
++------------------+----------------+-------------------------------+--------------------------------------+
 | milliTUBE 2mL    | 100% ethanol   | RNase A                       | **things to label**                  |
++------------------+----------------+-------------------------------+--------------------------------------+
 | Dry Ice          | Ice n bucket   | mag rack                      | smash bag                            |
++------------------+----------------+-------------------------------+--------------------------------------+
 | 100% Isopropanol | p1000 tips     | NFW-optional                  | 2ml Protein loBind                   |
++------------------+----------------+-------------------------------+--------------------------------------+
 | ice bucket       | p200 tips      | protein lo bind tubes 1.5/2mL | 1.5 mL Protein LoBind                |
++------------------+----------------+-------------------------------+--------------------------------------+
 | hammer           | Dissection kit | Qubit dsDNA BR                | 1.5 mL DNA LoBind                    |
++------------------+----------------+-------------------------------+--------------------------------------+
 
 ## Kit Particulars & Lot Numbers
 
@@ -135,14 +140,19 @@ Before using, add the appropriate amount of ethanol\
 
 ## Materials List
 
-|                                                                          |
-|--------------------------------------------------------------------------|
++--------------------------------------------------------------------------+
 | AMPure PB Beads                                                          |
++--------------------------------------------------------------------------+
 | Elution Buffer ~~Pacific Biosciences 101-633-500~~ 10 mM Tris-Cl, pH 8.5 |
++--------------------------------------------------------------------------+
 | 2 ml tube                                                                |
++--------------------------------------------------------------------------+
 | Wide Orifice Tips                                                        |
++--------------------------------------------------------------------------+
 | 1X dsDNA HS Assay kit & Qubit 4.0 fluorometer                            |
++--------------------------------------------------------------------------+
 | 1.5ml/2ml tube magnet                                                    |
++--------------------------------------------------------------------------+
 
 # [Exp21c](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Extraction
 
@@ -215,6 +225,10 @@ avoided transfer of impurities at step 20 as much as possible this time around
 QC results show low yield, good A260/280 and an A260/230 that is better than the first extraction but is still not sufficient for sample submission to Davis for PacBio
 
 <https://dnatech.genomecenter.ucdavis.edu/sample-requirements/>
+
+Upon reflection of MB eelpout HMW extraction noticed that sample input of 21 mg yielded a better A260/230. Might try that if have to do a third extraction
+
+Probably should have done a different sample type (liver?)
 
 ### Notes
 
