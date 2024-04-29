@@ -17,15 +17,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Samples 
 
+-   l dearborni
+
 -   [OGL Gill](https://isabel-kline.github.io/Kelley_Lab_Notebook/OGL_Gill_HMW.html), Lycodes Concolor - Submission requirements met.
 
 -   [Gar](https://isabel-kline.github.io/Kelley_Lab_Notebook/Gar_HMW.html) - Two extractions- Submission requirements not met. **Tropical Troubles**
 
--   Gunnel - TBD?
+-   Gunnel - not on deck
 
--   MB Eelpout, M pamellas - Submission requirements not met
+-   MB Eelpout - Exp 13
 
-*Sample submission requirements*
+-   M pamellas - Exp 6,7,8
 
 |                            |                    |              |                   |                      |                   |                   |
 |:----------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|

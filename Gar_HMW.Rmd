@@ -40,9 +40,7 @@ Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extract
 
 *Sample will be sent to Davis for Pac Bio Sequencing I assume*
 
-# Metadata
-
-## Sample Data
+# Sample data
 
 Experiment 21
 
@@ -61,6 +59,10 @@ Month of Experiment: 4/24
 |            |              |                 |                      |                        |                                   |
 |            |              | 20/6/13         |                      |                        |                                   |
 +------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
+| 21d        | 4/29/24      | Male Gar liver  | Gar III              | 24.5                   | lower sample input this time      |
+|            |              |                 |                      |                        |                                   |
+|            |              | 20/6/13         |                      |                        |                                   |
++------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
 
 ### Post Extraction:
 
@@ -71,6 +73,7 @@ Month of Experiment: 4/24
 | 2nd QC aliquot         | 17.6                     | 88                                                | 75          | 6.6                       | 1.7       | .8        |                                              |             |     |
 | Post 3.1x bead cleanup | 7.77                     | 38.85                                             | 30          | 1.1655                    | 1.846     | 0.847     |                                              |             |     |
 | Gar HiFi               | 5.79                     | 28.95                                             | 75          | 2.17125                   | 1.837     | 1.27      |                                              |             |     |
+| Gar Liver HMW          |                          |                                                   |             |                           |           |           |                                              |             |     |
 
 #### Tapestation Results
 
@@ -154,11 +157,17 @@ Before using, add the appropriate amount of ethanol\
 | 1.5ml/2ml tube magnet                                                    |
 +--------------------------------------------------------------------------+
 
-# [Exp21c](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Extraction
+# [Exp21c](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Extraction II
 
 Same protocol as 21a but with the other half of the skeletal muscle tissue
 
 input 45 mg
+
+# [Exp21d](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Extraction III
+
+Same protocol as 21a but with Gar liver tissue, lower sample input amount and additional washes
+
+input 25.4 mg
 
 # Log
 
@@ -210,13 +219,13 @@ Assuming 20% loss from bead cleanup will have 4.9 micrograms post clean up
 
 32 ul should give a concentration of 150 ng/ul
 
-#### Next Steps
+#### - results of bead clean up - 
 
-to be continued
+no good. lost alot of sample and purity stayed the same (bad)
 
 ### April 25, 2024
 
-Same protocol as 21a but with the other half of the skeletal muscle tissue
+Extraction number 2: Same protocol as 21a but with the other half of the skeletal muscle tissue
 
 avoided transfer of impurities at step 20 as much as possible this time around
 
@@ -229,6 +238,15 @@ QC results show low yield, good A260/280 and an A260/230 that is better than the
 Upon reflection of MB eelpout HMW extraction noticed that sample input of 21 mg yielded a better A260/230. Might try that if have to do a third extraction
 
 Probably should have done a different sample type (liver?)
+
+### April 29, 2024
+
+Extraction number 3 with the same protocol as 21a but with input that's 20-25 mg and liver tissue this time instead. \
+Pellet upon 4C centrifuge steps was noticeably more *pellety* and more clearly delineated in the tube. was more confident about removal of supernatant than with the skeletal muscle samples.
+
+Add additional round of washes per recco of MC
+
+in talk with MC it seems like the 3.1x bead cleanup was not the right move for cleaning up the initial extraction
 
 ### Notes
 
