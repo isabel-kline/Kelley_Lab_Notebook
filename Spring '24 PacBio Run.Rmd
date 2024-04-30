@@ -33,6 +33,7 @@ knitr::opts_chunk$set(echo = TRUE)
 |:----------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 | **PacBio Library Preps**   |     **Notes**      | **Quantity** | **Concentration** | **Preferred Buffer** | **260/280 ratio** | **260/230 ratio** |
 | HiFi libraries multiplexed | Gel Image Required |     3 ug     |   \>= 100 ng/ul   |          TE          |      1.8-2.0      |        \>2        |
+| HiFi libraries             | gel image required |     6 ug     |   \>= 100 ng/ul   |          TE          |      1.8-2.0      |        \>2        |
 
 *Samplesheet*
 

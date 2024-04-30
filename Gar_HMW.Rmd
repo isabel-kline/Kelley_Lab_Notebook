@@ -73,7 +73,10 @@ Month of Experiment: 4/24
 | 2nd QC aliquot         | 17.6                     | 88                                                | 75          | 6.6                       | 1.7       | .8        |                                              |             |     |
 | Post 3.1x bead cleanup | 7.77                     | 38.85                                             | 30          | 1.1655                    | 1.846     | 0.847     |                                              |             |     |
 | Gar HiFi               | 5.79                     | 28.95                                             | 75          | 2.17125                   | 1.837     | 1.27      |                                              |             |     |
-| Gar Liver HMW          |                          |                                                   |             |                           |           |           |                                              |             |     |
+| Gar Liver HMW          | 2.7                      | 13.5                                              | 75          | 1.0125                    | 1.69      | 0.6025    |                                              |             |     |
+| Liver Supernatant      | 19.7                     | 98.5                                              | 50          | 4.925                     | 1.672     | 0.7081    |                                              |             |     |
+| CW1 washes             | 2.46                     | 12.3                                              | 50          | 0.615                     | 1.696     | 0.5945    |                                              |             |     |
+| CW2 washes             | 6.04                     | 30.2                                              | 50          | 1.51                      | 1.7       | 0.5916    |                                              |             |     |
 
 #### Tapestation Results
 
@@ -169,6 +172,8 @@ Same protocol as 21a but with Gar liver tissue, lower sample input amount and ad
 
 input 25.4 mg
 
+Post
+
 # Log
 
 ### April 18, 2024
@@ -247,6 +252,14 @@ Pellet upon 4C centrifuge steps was noticeably more *pellety* and more clearly d
 Add additional round of washes per recco of MC
 
 in talk with MC it seems like the 3.1x bead cleanup was not the right move for cleaning up the initial extraction
+
+Post incubation with Nanobind disk noticed a cloud of opaque matter surround disk and be dropped into supernatant.
+
+Proceeded with washes and standard protocol but also set aside the supernatant, cw1 washes and cw2 washes for side purifications of the opaque matter.
+
+*Set aside tubes were processed as follows:* spun down washes for 10G for 5 min, removed supernatant from the pellet, two washes of: rinse with .5ml 80% etoh, spin down for 5 min at 10g, supernatant removed. after removing as much ethanol as possible post second wash added in 50ul of elution buffer and let sample rest at 4C overnight. In the morning set tubes to incubate for 1 hour at 50C
+
+QC results did not look good for any of the 4 samples. Yield and purity were both bad
 
 ### Notes
 
