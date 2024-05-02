@@ -15,19 +15,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <https://dnatech.genomecenter.ucdavis.edu/sample-requirements/>
 
-# Samples 
-
--   l dearborni
+# Samples
 
 -   [OGL Gill](https://isabel-kline.github.io/Kelley_Lab_Notebook/OGL_Gill_HMW.html), Lycodes Concolor - Submission requirements met.
 
--   [Gar](https://isabel-kline.github.io/Kelley_Lab_Notebook/Gar_HMW.html) - Two extractions- Submission requirements not met. **Tropical Troubles**
+-   [Gar](https://isabel-kline.github.io/Kelley_Lab_Notebook/Gar_HMW.html) - Three extractions- Submission requirements not met. **Tropical Troubles**
 
 -   Gunnel - not on deck
 
--   MB Eelpout - Exp 13
+-   [MB Eelpout](https://docs.google.com/spreadsheets/d/1ZWsgIWVk9rpZV0UILmpgUb43BqdX6ZVz_uZKFD2MwG8/edit#gid=1719487267) - G2G
 
--   M pamellas - Exp 6,7,8
+-   [L dearborni Spleen](https://docs.google.com/spreadsheets/d/1VvF6H3uHJhzdkbKDUOQOdmtyy62nAh7m/edit#gid=567208243) - G2G
 
 |                            |                    |              |                   |                      |                   |                   |
 |:----------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
@@ -37,20 +35,33 @@ knitr::opts_chunk$set(echo = TRUE)
 
 *Samplesheet*
 
-|           |               |                 |            |                   |                |                   |                   |
-|---------|-----------|-----------|---------|:-------:|---------|:-------:|:-------:|
-| Davis Run | STube ID      | Gel Image       | Quantity   | **Concentration** | Buffer         | **260/280 ratio** | **260/230 ratio** |
-| A         | ebony ogl hmw | peak - 41958 bp | 19.725 ug  |        263        | Circulomics EB |        1.8        |        2.1        |
-| B         |               |                 |            |                   |                |                   |                   |
-| C         | SRE EP1       | peak - 40000 bp | 2.5 ug     |       25.1        | SRE EB         |                   |                   |
-|           |               |                 |            |                   |                |                   |                   |
-|           | HiFi Gar      |                 | 2.17125 ug |       28.95       | Circulomics EB |       1.837       |       1.27        |
+|           |                     |                 |           |                   |                |                   |                   |
+|---------|---------|---------|---------|:-------:|---------|:-------:|:-------:|
+| Davis Run | STube ID            | Gel Image       | Quantity  | **Concentration** | Buffer         | **260/280 ratio** | **260/230 ratio** |
+| I         | ebony ogl hmw       | peak - 41958 bp | 19.725 ug |        263        | Circulomics EB |        1.8        |        2.1        |
+| I         | L. Dearborni Spleen | 49000           | 6         |        120        | SRE EB         |       1.93        |       1.96        |
+| I         | SRE EP1             | 40000           | 3.14      |       31.4        | SRE EB         |       1.83        |       0.57        |
+|           |                     |                 |           |                   |                |                   |                   |
+| II        | Gar -IP             |                 |           |                   |                |                   |                   |
 
 #### Fragment Analysis Results
 
 ![OGL Gill 1:5 Dilution Sample is col B1](images/240419_Ebony_OGL_Gar_Tapestation.jpg){width="617"}
 
 ![](images/240419_Ebony_OGL_1_5_Tapestation.png)
+
+### RNA Contamination
+
+| Tube ID           | Initial [RNA]   | Final [RNA] |
+|-------------------|-----------------|-------------|
+| Ebony OGL HMW     | 9.62            |             |
+| Gar HMW Cleanup   | 3.03            |             |
+| HiFi Gar          | 3.98            |             |
+| Gar liver HMW     | TL out of range |             |
+| liver supernatant | 8.62            | 3.33        |
+| cw1               | 6.38            |             |
+| cw2               | 6.48            |             |
+|                   |                 |             |
 
 ## Sample Storage
 
