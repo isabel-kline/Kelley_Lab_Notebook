@@ -261,6 +261,14 @@ Proceeded with washes and standard protocol but also set aside the supernatant, 
 
 QC results did not look good for any of the 4 samples. Yield and purity were both bad
 
+Noticed a size-able discrepancy between the Varioskan [ ] and the Qubit [ ]
+
+*theory is the RNase A isn't working*
+
+reviewed all other extractions and saw a trend of
+
+<https://www.qiagen.com/us/resources/faq?id=b97ed929-58d6-48f5-a4d2-6bf959483d7b&lang=en>
+
 ### Notes
 
 Tissue selection: Fish skeletal muscle is not recommended if other fish tissues are available (e.g., heart, testes, fin clip, kidney)

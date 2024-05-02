@@ -1,5 +1,5 @@
 ---
-title: "PacBio HiFi Sequencing Run Overview"
+title: "PacBio HiFi Sequencing Extractions Overview"
 author: "Isabel Kline"
 output:  
   html_document:
@@ -37,14 +37,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 *Samplesheet*
 
-|               |                 |            |                   |                |                   |                   |
-|-----------|-----------|-----------|:---------:|-----------|:---------:|:---------:|
-| STube ID      | Gel Image       | Quantity   | **Concentration** | Buffer         | **260/280 ratio** | **260/230 ratio** |
-| ebony ogl hmw | peak - 41958 bp | 19.725 ug  |        263        | Circulomics EB |        1.8        |        2.1        |
-| HiFi Gar      |                 | 2.17125 ug |       28.95       | Circulomics EB |       1.837       |       1.27        |
-| SRE EP1       | peak - 40000 bp | 2.5 ug     |       25.1        | SRE EB         |                   |                   |
-|               |                 |            |                   |                |                   |                   |
-|               |                 |            |                   |                |                   |                   |
+|           |               |                 |            |                   |                |                   |                   |
+|---------|-----------|-----------|---------|:-------:|---------|:-------:|:-------:|
+| Davis Run | STube ID      | Gel Image       | Quantity   | **Concentration** | Buffer         | **260/280 ratio** | **260/230 ratio** |
+| A         | ebony ogl hmw | peak - 41958 bp | 19.725 ug  |        263        | Circulomics EB |        1.8        |        2.1        |
+| B         |               |                 |            |                   |                |                   |                   |
+| C         | SRE EP1       | peak - 40000 bp | 2.5 ug     |       25.1        | SRE EB         |                   |                   |
+|           |               |                 |            |                   |                |                   |                   |
+|           | HiFi Gar      |                 | 2.17125 ug |       28.95       | Circulomics EB |       1.837       |       1.27        |
 
 #### Fragment Analysis Results
 
