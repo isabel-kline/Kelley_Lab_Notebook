@@ -66,6 +66,8 @@ Month of Experiment: 4/24
 
 ### Post Extraction:
 
+#### Circulomics Extractions 
+
 |                                      |                          |                                                   |             |                           |           |           |                                              |             |     |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Tube ID                              | Qubit ng/ul 1:5 dilution | ng/ul of undiluted based on measured 1:5 dilution | elution vol | total yield micrograms ug | A260/A280 | A260/A230 | tapestation avg size bp from 14779 - \>60000 | \% of total | DIN |
@@ -86,19 +88,98 @@ Month of Experiment: 4/24
 
 ![](images/240419_Gar_HMW_Tapestation.jpeg)
 
+#### Omega Extractions
+
+<table style="width:83%;">
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Tube ID</p></td>
+<td><p>Qubit ng/ul 1:5 dilution</p></td>
+<td><p>ng/ul of undiluted based on measured 1:5 dilution</p></td>
+<td><p>elution vol</p></td>
+<td><p>total yield micrograms ug</p></td>
+<td><p>A260/A280</p></td>
+<td><p>A260/A230</p></td>
+<td><p>tapestation avg size bp from 14779 - &gt;60000</p></td>
+<td><p>% of total</p></td>
+<td><p>DIN</p></td>
+</tr>
+<tr class="even">
+<td><p>240506 Gar Liver 1</p></td>
+<td><p>22.5</p></td>
+<td><p>112.5</p></td>
+<td><p>75</p></td>
+<td><p>8.4</p></td>
+<td><p>1.7</p></td>
+<td><p>0.86</p></td>
+<td><p>&gt;60,000</p></td>
+<td><p>83</p></td>
+<td><p>9.6</p></td>
+</tr>
+<tr class="odd">
+<td><p>240506 Gar Liver 2</p></td>
+<td><p>4.75</p></td>
+<td><p>23.75</p></td>
+<td><p>75</p></td>
+<td><p>1.8</p></td>
+<td><p>1.7</p></td>
+<td><p>0.78</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>CNC Gar 2</p></td>
+<td><p>13.5</p></td>
+<td><p>67.5</p></td>
+<td><p>15</p></td>
+<td><p>1.0</p></td>
+<td><p>1.9</p></td>
+<td><p>2.2</p></td>
+<td><p>53540</p></td>
+<td><p>84.77</p></td>
+<td><p>9.0</p></td>
+</tr>
+</tbody>
+</table>
+
+#### Tapestation Results
+
+![](images/Screenshot 2024-05-07 at 4.02.34 PM.png)
+
+240506 Gar Liver 1 - Col B1
+
+![](images/2024-05-07 - 14-27-24-gDNA_B1_.png)
+
+CNC Gar 2 - Col C1
+
+![](images/2024-05-07 - 14-27-24-gDNA_C1_.png)
+
 ## Sample Storage
 
 ##### Tissue
 
 tube id: Gar muscle male 20/6/13, sample is now fully consumed
 
-##### DNA extract:
+tube id: Gar liver male 20/6/13, Kelley Lab 4C
 
-tube id: Gar HMW, Gar HiFi
+##### DNA extracts:
 
 box label: pink box
 
-storage location and temperature: 4C
+storage location and temperature: Kelley Lab 4C
 
 # [Exp21a](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Extraction
 
@@ -178,7 +259,7 @@ Post
 
 # [Exp21e](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Rnase + Bead Cleanup
 
-Took the supernatant from the liver extraction and tried to remove the RNA contamination
+Took the supernatant from the liver extraction and tried to remove the RNA contamination.
 
 # [Exp21](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri}f Rnase + Bead Cleanup
 
@@ -187,6 +268,8 @@ Gar Hifi rnase digestion and bead cleanup
 20 ul rnase A, 30 min incubate at 55c followed by .45x bead cleanup
 
 75 ul elution incubated at 37c for 15 minutes prior to transfer away from beads
+
+Pretty much lost all of the sample.
 
 # Log
 
@@ -291,9 +374,9 @@ So what I did do was do a RNaseA digestion on the gar liver supernatant. I don't
 
 Poor recovery. RNA still measurable present. A260/230 and A260/280 still bad
 
--   [DNA] 1:5 dilution: 16.7
+-   [DNA](1.7%20ng/ul) 1:5 dilution: 16.7
 
--   [RNA] 1:5 dilution: 3.33
+-   [RNA](Too%20Low%20out%20of%20range) 1:5 dilution: 3.33
 
 -   A260/A280 undiluted sample: 1.64
 
@@ -307,9 +390,9 @@ Gar Hifi rnase digestion and bead cleanup
 
 75 ul elution incubated at 37c for 15 minutes prior to transfer away from beads
 
--   [DNA]: 1.7 ng/ul
+-   
 
--   [RNA]: Too Low out of range
+-   
 
 -   uDrop quant: 17.15 ng/ul
 
