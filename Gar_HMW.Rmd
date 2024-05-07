@@ -20,19 +20,44 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Overview
 
+1.  PacBio Hifi Sequencing
+
+2.  one sample sequenced on one Revio SMRT cell
+
+3.  Submitted sample additonal request of a RNase treatment and Spin-Column Cleanup & Qubit
+
+4.  genome size 1 GB
+
+5.  *Atractosteus tropicus -* Tropical gar
+
+6\. sample data is as follows:  112.5 ng/ul, 75 ul elution volume, Yield 8.4 micrograms, A260/280 of 1.7 and A260/230 of .9
+
+\
+7. all 75 ul of the 5/6/24 Omega Gar Liver Extraction will be sent to Davis for sequencing\
+8. Sample was eluted in DNA Elution Buffer: 10 mM Tris-HCl, pH 8.5, 0.1 mM EDTA\
+9. Tube Id: 240506 Gar Liver 1
+
 2013 Gar Tissue pulled from the Kelley Lab -80, Top Rack A, column 3, Row 4 and 5
 
 [Drive folder link](https://drive.google.com/drive/folders/18Grc9RU8b1AgnpR51Xi0QxQu8HY615x5?usp=drive_link)
 
 ### Planning
 
-Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extraction kit with modifications
+Extraction plan A: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extraction kit with modifications
 
 -   aim for up to 50 mg of sample input
 
 -   200 ul and 400 ul of cold Buffer CT (respectively in OOO, both below std amount)
 
 -   centrifuge spins will be at 10G
+
+-   warm EB to 70C to improve yield
+
+*switched up extraction method b/c of poor results*
+
+Extraction plan B: Dry Ice Cryofracture of Tissues and Omega HMW DNA Extraction kit
+
+-   20 mg input into cryofracture prep thats split into 2 extraction rxns
 
 -   warm EB to 70C to improve yield
 
@@ -44,7 +69,7 @@ Extraction plan: Dry Ice Cryofracture of Tissues and Circulomics HMW DNA Extract
 
 Experiment 21
 
-Month of Experiment: 4/24
+Time of Experiment: 4/24 - 5/24
 
 ### Cryofracture:
 
@@ -60,6 +85,10 @@ Month of Experiment: 4/24
 |            |              | 20/6/13         |                      |                        |                                   |
 +------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
 | 21d        | 4/29/24      | Male Gar liver  | Gar III              | 24.5                   | lower sample input this time      |
+|            |              |                 |                      |                        |                                   |
+|            |              | 20/6/13         |                      |                        |                                   |
++------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
+| 21g        | 5/6/24       | Male Gar liver  | Gar IIII             | 22.5                   | input for 2 rxns                  |
 |            |              |                 |                      |                        |                                   |
 |            |              | 20/6/13         |                      |                        |                                   |
 +------------+--------------+-----------------+----------------------+------------------------+-----------------------------------+
@@ -261,7 +290,7 @@ Post
 
 Took the supernatant from the liver extraction and tried to remove the RNA contamination.
 
-# [Exp21](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri}f Rnase + Bead Cleanup
+# [Exp21e](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} *Round 2* Rnase + Bead Cleanup
 
 Gar Hifi rnase digestion and bead cleanup
 
@@ -270,6 +299,12 @@ Gar Hifi rnase digestion and bead cleanup
 75 ul elution incubated at 37c for 15 minutes prior to transfer away from beads
 
 Pretty much lost all of the sample.
+
+# [Exp21f](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Omega Extraction
+
+Gar Liver tissue
+
+# [Exp21g](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Clean and Concentrate
 
 # Log
 
@@ -399,6 +434,22 @@ Gar Hifi rnase digestion and bead cleanup
 -   A260/A280 undiluted sample: 1.5
 
 -   A260/A230 undiluted sample: .72
+
+### May 06, 2024
+
+### May 07, 2024
+
+Both Omega liver samples had detectable levels of RNA contamination when a measurement of undiluted sample was done with RNA qubit. 2 ul consumed of both samples.
+
+The idea was to take the lower yield Omega liver sample as see if the Genomic DNA Clean & Concentrator®-10 from Zymo Research can clean up the sample and doesn't shear it into too small of fragments.
+
+The kit's protocol had guidance steps to follow to get rid of the RNA. Of note, only adding enough RNase A to the sample so that the final concentration was 10 -100ug/ml. After doing the math it seemed like i needed to add in .5 ul of our RNase A (20 mg/ml) but that seemed like so little. So i did some googling to see what happens when you add in too much RNase A and I found a paper that talked about how too much RNase A will get rid out the DNA too. [Unexpected DNA Loss Mediated by the DNA Binding Activity of Ribonuclease A](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4263722/) So .5 ul seemed like a better idea now.
+
+The protocol procedure went smoothly. 2 ul of the 15 ul eluate was consumed to make a 1:5 dilution factor aliquot for QC ( 2 ul of the CNC eluate + 8 ul of the CNC EB. TV 10 ul) uDrop results looked GREAT! and the qubit and varioskan concentration values final seemed to line up 13.5 vs 19.5. less than 50%! <https://www.pacb.com/wp-content/uploads/Technical-Note-Preparing-DNA-for-PacBio-HiFi-Sequencing-Extraction-and-Quality-Control.pdf>
+
+The tapestation peak looked a little more broad then the uncleaned up sample but was otherwise Sufficient.
+
+# 
 
 ### Notes
 
