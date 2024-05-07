@@ -66,17 +66,19 @@ Month of Experiment: 4/24
 
 ### Post Extraction:
 
-|                        |                          |                                                   |             |                           |           |           |                                              |             |     |
-|---------|--------|--------|------|--------|--------|--------|--------|--------|--------|
-| Tube ID                | Qubit ng/ul 1:5 dilution | ng/ul of undiluted based on measured 1:5 dilution | elution vol | total yield micrograms ug | A260/A280 | A260/A230 | tapestation avg size bp from 14779 - \>60000 | \% of total | DIN |
-| Gar HMW                | 12.6                     | 63                                                | 75          | 4.725                     | 1.7       | .95       | \>60000                                      | 83.02       | 9.8 |
-| 2nd QC aliquot         | 17.6                     | 88                                                | 75          | 6.6                       | 1.7       | .8        |                                              |             |     |
-| Post 3.1x bead cleanup | 7.77                     | 38.85                                             | 30          | 1.1655                    | 1.846     | 0.847     |                                              |             |     |
-| Gar HiFi               | 5.79                     | 28.95                                             | 75          | 2.17125                   | 1.837     | 1.27      |                                              |             |     |
-| Gar Liver HMW          | 2.7                      | 13.5                                              | 75          | 1.0125                    | 1.69      | 0.6025    |                                              |             |     |
-| Liver Supernatant      | 19.7                     | 98.5                                              | 50          | 4.925                     | 1.672     | 0.7081    |                                              |             |     |
-| CW1 washes             | 2.46                     | 12.3                                              | 50          | 0.615                     | 1.696     | 0.5945    |                                              |             |     |
-| CW2 washes             | 6.04                     | 30.2                                              | 50          | 1.51                      | 1.7       | 0.5916    |                                              |             |     |
+|                                      |                          |                                                   |             |                           |           |           |                                              |             |     |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Tube ID                              | Qubit ng/ul 1:5 dilution | ng/ul of undiluted based on measured 1:5 dilution | elution vol | total yield micrograms ug | A260/A280 | A260/A230 | tapestation avg size bp from 14779 - \>60000 | \% of total | DIN |
+| Gar HMW                              | 12.6                     | 63                                                | 75          | 4.725                     | 1.7       | .95       | \>60000                                      | 83.02       | 9.8 |
+| 2nd QC aliquot                       | 17.6                     | 88                                                | 75          | 6.6                       | 1.7       | .8        |                                              |             |     |
+| Post 3.1x bead cleanup               | 7.77                     | 38.85                                             | 30          | 1.1655                    | 1.846     | 0.847     |                                              |             |     |
+| Gar HiFi                             | 5.79                     | 28.95                                             | 75          | 2.17125                   | 1.837     | 1.27      |                                              |             |     |
+| Gar Liver HMW                        | 2.7                      | 13.5                                              | 75          | 1.0125                    | 1.69      | 0.6025    |                                              |             |     |
+| Liver Supernatant                    | 19.7                     | 98.5                                              | 50          | 4.925                     | 1.672     | 0.7081    |                                              |             |     |
+| CW1 washes                           | 2.46                     | 12.3                                              | 50          | 0.615                     | 1.696     | 0.5945    |                                              |             |     |
+| CW2 washes                           | 6.04                     | 30.2                                              | 50          | 1.51                      | 1.7       | 0.5916    |                                              |             |     |
+| liver Supernatant rnase bead cleanup | 16.7                     | 83.5                                              | 20          | 1.7                       | 1.64      | 0.8566    |                                              |             |     |
+|                                      |                          |                                                   |             |                           |           |           |                                              |             |     |
 
 #### Tapestation Results
 
@@ -174,6 +176,18 @@ input 25.4 mg
 
 Post
 
+# [Exp21e](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri} Rnase + Bead Cleanup
+
+Took the supernatant from the liver extraction and tried to remove the RNA contamination
+
+# [Exp21](https://docs.google.com/spreadsheets/d/1y7E_nPqIrszB74X549kRu-dw5WyIRJrkGchXJyn7OJM/edit?usp=drive_link){.uri}f Rnase + Bead Cleanup
+
+Gar Hifi rnase digestion and bead cleanup
+
+20 ul rnase A, 30 min incubate at 55c followed by .45x bead cleanup
+
+75 ul elution incubated at 37c for 15 minutes prior to transfer away from beads
+
 # Log
 
 ### April 18, 2024
@@ -224,7 +238,7 @@ Assuming 20% loss from bead cleanup will have 4.9 micrograms post clean up
 
 32 ul should give a concentration of 150 ng/ul
 
-#### - results of bead clean up - 
+#### - results of bead clean up -
 
 no good. lost alot of sample and purity stayed the same (bad)
 
@@ -246,7 +260,7 @@ Probably should have done a different sample type (liver?)
 
 ### April 29, 2024
 
-Extraction number 3 with the same protocol as 21a but with input that's 20-25 mg and liver tissue this time instead. \
+Extraction number 3 with the same protocol as 21a but with input that's 20-25 mg and liver tissue this time instead.\
 Pellet upon 4C centrifuge steps was noticeably more *pellety* and more clearly delineated in the tube. was more confident about removal of supernatant than with the skeletal muscle samples.
 
 Add additional round of washes per recco of MC
@@ -268,6 +282,40 @@ Noticed a size-able discrepancy between the Varioskan [ ] and the Qubit [ ]
 reviewed all other extractions and saw a trend of
 
 <https://www.qiagen.com/us/resources/faq?id=b97ed929-58d6-48f5-a4d2-6bf959483d7b&lang=en>
+
+### May 01, 2024
+
+So what I did do was do a RNaseA digestion on the gar liver supernatant. I don't think I added in enough RNase and I think the results indicate that.
+
+2 ul of RNase A, 55c incubation for 30 min followed up with a 1.8x bead cleanup eluted in 22 ul
+
+Poor recovery. RNA still measurable present. A260/230 and A260/280 still bad
+
+-   [DNA] 1:5 dilution: 16.7
+
+-   [RNA] 1:5 dilution: 3.33
+
+-   A260/A280 undiluted sample: 1.64
+
+-   A260/A230 undiluted sample: 0.85
+
+### May 02, 2024
+
+Gar Hifi rnase digestion and bead cleanup
+
+20 ul rnase A, 30 min incubate at 55c followed by .45x bead cleanup
+
+75 ul elution incubated at 37c for 15 minutes prior to transfer away from beads
+
+-   [DNA]: 1.7 ng/ul
+
+-   [RNA]: Too Low out of range
+
+-   uDrop quant: 17.15 ng/ul
+
+-   A260/A280 undiluted sample: 1.5
+
+-   A260/A230 undiluted sample: .72
 
 ### Notes
 
