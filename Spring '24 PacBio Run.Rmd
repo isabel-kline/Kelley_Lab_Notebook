@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = TRUE)
 -   [L dearborni Spleen](https://docs.google.com/spreadsheets/d/1VvF6H3uHJhzdkbKDUOQOdmtyy62nAh7m/edit#gid=567208243) - G2G
 
 |                            |                    |              |                   |                      |                   |                   |
-|:----------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|:---------------------------|:------------------:|:------------:|:-----------------:|:--------------------:|:-----------------:|:-----------------:|
 | **PacBio Library Preps**   |     **Notes**      | **Quantity** | **Concentration** | **Preferred Buffer** | **260/280 ratio** | **260/230 ratio** |
 | HiFi libraries multiplexed | Gel Image Required |     3 ug     |   \>= 100 ng/ul   |          TE          |      1.8-2.0      |        \>2        |
 | HiFi libraries             | gel image required |     6 ug     |   \>= 100 ng/ul   |          TE          |      1.8-2.0      |        \>2        |
@@ -36,7 +36,7 @@ knitr::opts_chunk$set(echo = TRUE)
 *Samplesheet*
 
 |           |                     |                 |           |                   |                |                   |                   |
-|---------|---------|---------|---------|:-------:|---------|:-------:|:-------:|
+|-----------|---------------------|-----------------|-----------|:-----------------:|----------------|:-----------------:|:-----------------:|
 | Davis Run | STube ID            | Gel Image       | Quantity  | **Concentration** | Buffer         | **260/280 ratio** | **260/230 ratio** |
 | I         | ebony ogl hmw       | peak - 41958 bp | 19.725 ug |        263        | Circulomics EB |        1.8        |        2.1        |
 | I         | L. Dearborni Spleen | 49000           | 6         |        120        | SRE EB         |       1.93        |       1.96        |

@@ -437,6 +437,8 @@ Gar Hifi rnase digestion and bead cleanup
 
 ### May 06, 2024
 
+missed some log entries but long story short... troubles
+
 ### May 07, 2024
 
 Both Omega liver samples had detectable levels of RNA contamination when a measurement of undiluted sample was done with RNA qubit. 2 ul consumed of both samples.
@@ -447,7 +449,7 @@ The kit's protocol had guidance steps to follow to get rid of the RNA. Of note, 
 
 The protocol procedure went smoothly. 2 ul of the 15 ul eluate was consumed to make a 1:5 dilution factor aliquot for QC ( 2 ul of the CNC eluate + 8 ul of the CNC EB. TV 10 ul) uDrop results looked GREAT! and the qubit and varioskan concentration values final seemed to line up 13.5 vs 19.5. less than 50%! <https://www.pacb.com/wp-content/uploads/Technical-Note-Preparing-DNA-for-PacBio-HiFi-Sequencing-Extraction-and-Quality-Control.pdf>
 
-The tapestation peak looked a little more broad then the uncleaned up sample but was otherwise Sufficient.
+The tapestation peak looked a little more broad then the uncleaned up sample but was otherwise Sufficient. As a result the higher yield Omega Gar liver extraction will be sent to Davis with a note that it needs RNase A digestion and a spin column cleanup prior to library prep and sequencing. SB prepared the submission on the Davis portal. I will likely ship out the sample next week on Monday 5/13/24
 
 # 
 
