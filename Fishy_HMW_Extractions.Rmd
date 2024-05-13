@@ -1,0 +1,18 @@
+---
+title: "Fish Skeletal Muscle HMW Extractions Overview"
+author: "Isabel Kline"
+output:  
+  html_document:
+    theme: cosmo
+    toc:  true
+    toc_float:  true
+    number_sections:  true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<https://dnatech.genomecenter.ucdavis.edu/sample-requirements/>
+
+# 
