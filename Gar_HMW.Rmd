@@ -3,6 +3,7 @@ title: "Gar HMW Extraction"
 author: "Isabel Kline"
 output:  
   html_document:
+    keep_md: true
     theme: cosmo
     highlight: tango
     toc:  true
@@ -95,7 +96,7 @@ Time of Experiment: 4/24 - 5/24
 
 ### Post Extraction:
 
-#### Circulomics Extractions 
+#### Circulomics Extractions
 
 |                                      |                          |                                                   |             |                           |           |           |                                              |             |     |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
@@ -119,82 +120,24 @@ Time of Experiment: 4/24 - 5/24
 
 #### Omega Extractions
 
-<table style="width:83%;">
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Tube ID</p></td>
-<td><p>Qubit ng/ul 1:5 dilution</p></td>
-<td><p>ng/ul of undiluted based on measured 1:5 dilution</p></td>
-<td><p>elution vol</p></td>
-<td><p>total yield micrograms ug</p></td>
-<td><p>A260/A280</p></td>
-<td><p>A260/A230</p></td>
-<td><p>tapestation avg size bp from 14779 - &gt;60000</p></td>
-<td><p>% of total</p></td>
-<td><p>DIN</p></td>
-</tr>
-<tr class="even">
-<td><p>240506 Gar Liver 1</p></td>
-<td><p>22.5</p></td>
-<td><p>112.5</p></td>
-<td><p>75</p></td>
-<td><p>8.4</p></td>
-<td><p>1.7</p></td>
-<td><p>0.86</p></td>
-<td><p>&gt;60,000</p></td>
-<td><p>83</p></td>
-<td><p>9.6</p></td>
-</tr>
-<tr class="odd">
-<td><p>240506 Gar Liver 2</p></td>
-<td><p>4.75</p></td>
-<td><p>23.75</p></td>
-<td><p>75</p></td>
-<td><p>1.8</p></td>
-<td><p>1.7</p></td>
-<td><p>0.78</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p>CNC Gar 2</p></td>
-<td><p>13.5</p></td>
-<td><p>67.5</p></td>
-<td><p>15</p></td>
-<td><p>1.0</p></td>
-<td><p>1.9</p></td>
-<td><p>2.2</p></td>
-<td><p>53540</p></td>
-<td><p>84.77</p></td>
-<td><p>9.0</p></td>
-</tr>
-</tbody>
-</table>
+|                    |                          |                                                   |             |                           |           |           |                                              |             |     |
+|------|------|------|------|------|------|------|------|------|------|
+| Tube ID            | Qubit ng/ul 1:5 dilution | ng/ul of undiluted based on measured 1:5 dilution | elution vol | total yield micrograms ug | A260/A280 | A260/A230 | tapestation avg size bp from 14779 - \>60000 | \% of total | DIN |
+| 240506 Gar Liver 1 | 22.5                     | 112.5                                             | 75          | 8.4                       | 1.7       | 0.86      | \>60,000                                     | 83          | 9.6 |
+| 240506 Gar Liver 2 | 4.75                     | 23.75                                             | 75          | 1.8                       | 1.7       | 0.78      |                                              |             |     |
+| CNC Gar 2          | 13.5                     | 67.5                                              | 15          | 1.0                       | 1.9       | 2.2       | 53540                                        | 84.77       | 9.0 |
 
 #### Tapestation Results
 
-![](images/Screenshot 2024-05-07 at 4.02.34 PM.png)
+![](images/Screenshot%202024-05-07%20at%204.02.34%20PM.png)
 
 240506 Gar Liver 1 - Col B1
 
-![](images/2024-05-07 - 14-27-24-gDNA_B1_.png)
+![](images/2024-05-07%20-%2014-27-24-gDNA_B1_.png)
 
 CNC Gar 2 - Col C1
 
-![](images/2024-05-07 - 14-27-24-gDNA_C1_.png)
+![](images/2024-05-07%20-%2014-27-24-gDNA_C1_.png)
 
 ## Sample Storage
 
