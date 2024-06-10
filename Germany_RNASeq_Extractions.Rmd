@@ -1,5 +1,5 @@
 ---
-title: "Fish Skeletal Muscle HMW Extractions Overview"
+title: "Germany RNASeq Extractions"
 author: "Isabel Kline"
 output:  
   html_document:
