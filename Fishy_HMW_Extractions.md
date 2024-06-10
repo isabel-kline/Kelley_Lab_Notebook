@@ -24,13 +24,13 @@ Many fish skeletal muscle tissues will swell to fill the full volume of Buffer C
 
 Changes include:
 
-1) Higher tissue input (step 2). (48mg
+1)  Higher tissue input (step 2). (48mg
 
-2) Smaller volume of Buffer CT (step 4) + Dounce wash (step 7). (200 ul x 2)
+2)  Smaller volume of Buffer CT (step 4) + Dounce wash (step 7). (200 ul x 2)
 
-3) Faster centrifugation speed (step 8). 16,000 x G
+3)  Faster centrifugation speed (step 8). 16,000 x G
 
-4) No secondary wash with Buffer CT.
+4)  No secondary wash with Buffer CT.
 
 # 2021 - Fish Skeletal Muscle Extraction
 
@@ -38,11 +38,11 @@ Circulomics extraction with notes from Rep [link](https://drive.google.com/file/
 
 Changes include:
 
-1) Higher tissue input (step 2). (50 mg)
+1)  Higher tissue input (step 2). (50 mg)
 
-2) Smaller volume of Buffer CT for 1st wash (200 ul) and 2nd wash (400 ul)
+2)  Smaller volume of Buffer CT for 1st wash (200 ul) and 2nd wash (400 ul)
 
-3) Moderate centrifugation speed (step 7 & 9). 10,000 x G
+3)  Moderate centrifugation speed (step 7 & 9). 10,000 x G
 
 since following these recco's what's been the result?
 
@@ -58,21 +58,15 @@ since following these recco's what's been the result?
 
 -   *Followed standard TissueRuptor Protocols for kidney, fin, and heart samples.*
 
--    *For liver, brain, testes, and spleen samples, followed example protocols as provided in Procedure & checklists.*
+-   *For liver, brain, testes, and spleen samples, followed example protocols as provided in Procedure & checklists.*
 
-+---------------+------------------------------+---------+-------------+---------+-----------+-----------+
-| article       | Sample                       | Input   | dsDNA Yield | \% RNA  | A260/A280 | A260/A230 |
-+===============+==============================+=========+=============+=========+===========+===========+
-| 2019 Circ     | Fish Skeletal Muscle         | 48 mg   | 2.7 μg      | 55.9    | 1.77      | 1.04      |
-+---------------+------------------------------+---------+-------------+---------+-----------+-----------+
-| 2021 w/ notes | MB_EP_2_White muscle         | 21 mg   | 6.8 ug      |         | 1.754     | 2.073     |
-+---------------+------------------------------+---------+-------------+---------+-----------+-----------+
-| 2021 w/ notes | Lycodes concolor Gill Tissue | 53.2 mg | 19.725      | 3       | 1.8       | 2.1       |
-+---------------+------------------------------+---------+-------------+---------+-----------+-----------+
-|               |                              |         |             |         |           |           |
-+---------------+------------------------------+---------+-------------+---------+-----------+-----------+
-|               |                              |         |             |         |           |           |
-+---------------+------------------------------+---------+-------------+---------+-----------+-----------+
+| article       | Sample                       | Input   | dsDNA Yield | \% RNA | A260/A280 | A260/A230 |
+|---------------|------------------------------|---------|-------------|--------|-----------|-----------|
+| 2019 Circ     | Fish Skeletal Muscle         | 48 mg   | 2.7 μg      | 55.9   | 1.77      | 1.04      |
+| 2021 w/ notes | MB_EP_2_White muscle         | 21 mg   | 6.8 ug      |        | 1.754     | 2.073     |
+| 2021 w/ notes | Lycodes concolor Gill Tissue | 53.2 mg | 19.725      | 3      | 1.8       | 2.1       |
+|               |                              |         |             |        |           |           |
+|               |                              |         |             |        |           |           |
 
 : Extraction Results
 
