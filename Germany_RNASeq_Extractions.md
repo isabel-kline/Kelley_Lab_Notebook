@@ -18,7 +18,7 @@ output:
 
 details:
 
-Drive folder link
+[Drive folder link](https://drive.google.com/drive/u/0/folders/1Hol6ktlDViiKfrVa1tLDwSl3-bCFDLBG)
 
 ### Planning
 
@@ -31,22 +31,6 @@ Extraction plan:
 Experiment XX
 
 Month of Experiment: 6/24
-
-### Cryofracture:
-
-|            |              |        |                      |                        |       |
-|------------|------------|------------|------------|------------|------------|
-| Experiment | Date of Exp. | Sample | Cryofracture Tube ID | input tissue weight mg | notes |
-|            |              |        |                      |                        |       |
-
-### Post Extraction:
-
-|         |              |             |                               |           |           |                            |             |     |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Tube ID | RNA [ng/ul]  | elution vol | total yield (micrograms) (ug) | A260/A280 | A260/A230 | Bioanalyzer avg size [bp]  | \% of total | RIN |
-|         |              |             |                               |           |           |                            |             |     |
-
-#### Tapestation Image
 
 ## Sample Storage
 
@@ -66,7 +50,7 @@ box:
 
 storage location and temperature:
 
-# ExpXX_Protocol
+# [ExpXX_Protocol](https://docs.google.com/spreadsheets/d/1KRz4BxfZMiVuNSRogQ07To1Xo2KI_hLexjCjcoXvzPQ/edit#gid=1649175478)
 
 ## Materials List
 
@@ -81,13 +65,23 @@ storage location and temperature:
 
 ## Kit Particulars & Lot Numbers
 
-| part | part no | lot |
-|------|---------|-----|
-|      |         |     |
-|      |         |     |
-|      |         |     |
+| part                                                | part no | lot |
+|-----------------------------------------------------|---------|-----|
+| Lysing Matrix A tube                                |         |     |
+| NEB monarch total RNA MiniPrep kit - 1st kit opened | T2010S  |     |
+|                                                     |         |     |
 
 kit details
+
+**1st kit**
+
+O: 3/24 by Blair Perry, consumed a couple rxns (unkown specific amount)
+
+-   proteinase K reconstituted 6/10/24 by MIOK, made 4 aliquots total, stored in the -20
+
+-   DNAse 1 reconstituted 3/24 by Blair Perry\* not aliquoted, stored in the -20
+
+-   RNA Wash Buffer mixed with 200 proof EtOH 3/24 by Blair Perry, stored at RT
 
 |     |
 |-----|
@@ -95,7 +89,11 @@ kit details
 
 # Log
 
-### Date
+### 06/11/24
+
+did 12 extraction reactions with Owen and Dalya shadowing me. Some samples had good yield. Some did not. The juvenile gills are super duper tiny and yield from them was pretty low as well. Need to look at minimum input into library prep to see if I need to do repeats.
+
+Moving forward how to tackle juvenile gill extractions? Should I use two gills?
 
 #### Q's
 
