@@ -34,7 +34,7 @@ Month of Experiment: 6/24
 
 ## Sample Storage
 
-##### Gills - 
+##### Gills -
 
 tube id:
 
@@ -94,6 +94,8 @@ O: 3/24 by Blair Perry, consumed a couple rxns (unkown specific amount)
 did 12 extraction reactions with Owen and Dalya shadowing me. Some samples had good yield. Some did not. The juvenile gills are super duper tiny and yield from them was pretty low as well. Need to look at minimum input into library prep to see if I need to do repeats.
 
 Moving forward how to tackle juvenile gill extractions? Should I use two gills?
+
+Kara Ryan mentioned tackling the \* look up term for it\* individually for the juvenile gills
 
 #### Q's
 
