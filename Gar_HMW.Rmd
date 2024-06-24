@@ -121,7 +121,7 @@ Time of Experiment: 4/24 - 5/24
 #### Omega Extractions
 
 |                    |                          |                                                   |             |                           |           |           |                                              |             |     |
-|------|------|------|------|------|------|------|------|------|------|
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Tube ID            | Qubit ng/ul 1:5 dilution | ng/ul of undiluted based on measured 1:5 dilution | elution vol | total yield micrograms ug | A260/A280 | A260/A230 | tapestation avg size bp from 14779 - \>60000 | \% of total | DIN |
 | 240506 Gar Liver 1 | 22.5                     | 112.5                                             | 75          | 8.4                       | 1.7       | 0.86      | \>60,000                                     | 83          | 9.6 |
 | 240506 Gar Liver 2 | 4.75                     | 23.75                                             | 75          | 1.8                       | 1.7       | 0.78      |                                              |             |     |
@@ -394,7 +394,9 @@ The protocol procedure went smoothly. 2 ul of the 15 ul eluate was consumed to m
 
 The tapestation peak looked a little more broad then the uncleaned up sample but was otherwise Sufficient. As a result the higher yield Omega Gar liver extraction will be sent to Davis with a note that it needs RNase A digestion and a spin column cleanup prior to library prep and sequencing. SB prepared the submission on the Davis portal. I will likely ship out the sample next week on Monday 5/13/24
 
-# 
+### June 24, 2024
+
+Mailed the rest of the liver sample from the liver extractions, a liver sample from the -80 and a brain sample from the -80 as well to UC Davis.
 
 ### Notes
 
