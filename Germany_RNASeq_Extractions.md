@@ -174,6 +174,18 @@ Compare fragment profile (Bioanalyzer) results from 1st batch of juvenile extrac
 
 12 samples processed
 
+### Brain Extraction Notes
+
+Lysing Matrix D is used primarily for lysis of softer tissues like brain
+
+4.0 m/s for 20 seconds
+
+<https://doi.org/10.1093/infdis/jiad563>
+
+recco input of 10 mg. max input of 50 mg
+
+<https://www.neb.com/en-us/-/media/nebus/files/manuals/manualt2010.pdf?rev=175a03b980f84584b7353d73dd6cba54&hash=93B1804F5634464706E58663FCD33B6C>
+
 ### Notes
 
 Finish the gills
