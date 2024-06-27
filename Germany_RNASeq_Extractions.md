@@ -22,7 +22,7 @@ details:
 
 ### Planning
 
-Gills first, sample count: 82, then library prep
+Gills first, sample count: 83, then library prep
 
 pilot brain extraction then
 
@@ -60,9 +60,9 @@ storage location and temperature:
 
 # Input v Yield
 
-![](Germany_RNASeq_Extractions_files/figure-html/unnamed-chunk-1-1.png)<!-- -->![](Germany_RNASeq_Extractions_files/figure-html/unnamed-chunk-1-2.png)<!-- -->
+![](Germany_RNASeq_Extractions_files/figure-html/unnamed-chunk-1-1.png)<!-- -->![](Germany_RNASeq_Extractions_files/figure-html/unnamed-chunk-1-2.png)<!-- -->![](Germany_RNASeq_Extractions_files/figure-html/unnamed-chunk-1-3.png)<!-- -->![](Germany_RNASeq_Extractions_files/figure-html/unnamed-chunk-1-4.png)<!-- -->
 
-[Exp23_Protocol](https://docs.google.com/spreadsheets/d/1KRz4BxfZMiVuNSRogQ07To1Xo2KI_hLexjCjcoXvzPQ/edit#gid=1649175478)
+# [Exp23_Protocol](https://docs.google.com/spreadsheets/d/1KRz4BxfZMiVuNSRogQ07To1Xo2KI_hLexjCjcoXvzPQ/edit#gid=1649175478)
 
 ## Materials List
 
@@ -189,6 +189,8 @@ recco input of 10 mg. max input of 50 mg
 <https://www.neb.com/en-us/-/media/nebus/files/manuals/manualt2010.pdf?rev=175a03b980f84584b7353d73dd6cba54&hash=93B1804F5634464706E58663FCD33B6C>
 
 ### Notes
+
+For last batch: watch it with the lysis buffer!!!
 
 Finish the gills
 
