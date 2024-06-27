@@ -26,13 +26,19 @@ details:
 
 Gills first, sample count: 83, then library prep
 
-pilot brain extraction then
+pilot brain extraction then Bio A
 
-Brains second, sample count: 18
+then library prep of gills
 
-toss under performers and index 96
+Brains extractions after, sample count: 18
 
-Extraction plan: Gills - NEB spin column RNA extraction
+toss under performers and index up to 96
+
+Extraction plan:
+
+-   Gills - Cryofracture in Lysing Matrix A tubes using coolPrep adapter for 45 sec at a speed setting of 6.5 m/s. NEB spin column RNA extraction. 30 min pro K incubation
+
+-   Brain- Cryofracture in Lysing Matrix D tubes using coolPrep adapter for 20 sec at a speed setting of 4 m/s. NEB spin column RNA extraction std protocol
 
 Library prep plan: need 1 ug input
 
@@ -46,19 +52,27 @@ Month of Experiment: 6/24
 
 ##### Gills -
 
-tube id:
+tube ids: HG24001 - HG24083
 
 box label:
 
-storage location and temperature:
+storage location and temperature: Kelley Lab -20
+
+##### Brains -
+
+tube ids: HB24001 - HB24083
+
+box label:
+
+storage location and temperature: Kelley Lab -20
 
 ##### RNA extracts:
 
-tube ids:
+tube ids: E##\_HG01-E##HG83
 
-box:
+boxes: Germany RNA Seq Extractions Summer '24 MIOK Box \# of 2
 
-storage location and temperature:
+storage location and temperature: CBB Freezer Room -80
 
 # Input v Yield
 
@@ -205,6 +219,12 @@ Compare fragment profile (Bioanalyzer) results from 1st batch of juvenile extrac
 
 12 samples processed
 
+### 6/27/2023
+
+11 gill samples extracted
+
+260/230 still not across the board great despite being very careful with the lysis buffer
+
 ### Brain Extraction Notes
 
 Lysing Matrix D is used primarily for lysis of softer tissues like brain
@@ -221,39 +241,22 @@ recco input of 10 mg. max input of 50 mg
 
 For last batch: watch it with the lysis buffer!!!
 
-Finish the gills
+Finish the gills. Do pilot of the brain. BioA check up of the last of the gills
 
-Library prep
+??? Redo extraction of some samples.
 
-18 brains – very specific brains
+Next week: Start Library prep of gills. Increase PCR cycle from 10 to 11?
 
-No muscle and not other brains
+After that: Extraction of 18 brains – very specific brains. then lib prep of them
 
-82+18
+Overall: No muscle and not other brains, 83+18
 
-Four brains will be tossed
+5 brains will be tossed
 
 Index with the indexes we currently have
 
 Fish ID of Brains selected for Rna extraction
 
-H24005\
-H24006\
-H24009\
-H24010\
-H24011\
-H24012\
-H24001\
-H24002\
-H24003\
-H24004\
-H24007\
-H24008\
-H24013\
-H24014\
-H24023\
-H24024\
-H24025\
-H24026
+H24005, H24006, H24009, H24010, H24011, H24012, H24001, H24002, H24003, H24004, H24007, H24008, H24013, H24014, H24023, H24024, H24025, H24026
 
 Pilot test on sample: H24041
