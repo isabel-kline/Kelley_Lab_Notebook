@@ -84,7 +84,8 @@ storage location and temperature: CBB Freezer Room -80
 
 | part                                                        | part no | lot         |
 |-------------------------------------------------------------|---------|-------------|
-| Lysing Matrix A tube                                        | 6910100 | U1124135919 |
+| Lysing Matrix A tubes                                       | 6910100 | U1124135919 |
+| Lysing Matrix D tubes                                       | 6910100 | U1124135919 |
 | NEB monarch total RNA MiniPrep kit - 1st kit opened 3/19/24 | T2010S  | 10175994    |
 | NEB monarch total RNA MiniPrep kit - 2nd kit opened 6/20/24 | T2010S  | 10210910    |
 
@@ -194,19 +195,27 @@ Compare fragment profile (Bioanalyzer) results from 1st batch of juvenile extrac
 
 11 gill samples extracted
 
-260/230 still not across the board great despite being very careful with the lysis buffer
+260/230 still not across the board great despite being very careful with the lysis buffer. There seems to be no clear ground floor for A260/230
+
+<https://www.qiagen.com/us/resources/faq?id=c59936fb-4f1e-4191-9c16-ff083cb24574&lang=en>
+
+RIN of 5 seems to be the cutoff on the internet
+
+Next steps:
+
+Extract Pilot Brain and run batch 6 and 7 on the Bio A
+
+make sure to run the following samples on the BioA
+
+E63_HG18,
 
 ### Brain Extraction Notes
 
 Lysing Matrix D is used primarily for lysis of softer tissues like brain
 
-4.0 m/s for 20 seconds
+fastprep program: 4.0 m/s for 20 seconds [preprint that did this](https://doi.org/10.1093/infdis/jiad563)
 
-<https://doi.org/10.1093/infdis/jiad563>
-
-recco input of 10 mg. max input of 50 mg
-
-<https://www.neb.com/en-us/-/media/nebus/files/manuals/manualt2010.pdf?rev=175a03b980f84584b7353d73dd6cba54&hash=93B1804F5634464706E58663FCD33B6C>
+NEB recco's input of 10 mg. max input of 50 mg [NEB](https://www.neb.com/en-us/-/media/nebus/files/manuals/manualt2010.pdf?rev=175a03b980f84584b7353d73dd6cba54&hash=93B1804F5634464706E58663FCD33B6C)
 
 ### Notes
 
