@@ -107,7 +107,19 @@ Input_Yield %>%
 
 # [Exp23_Protocol](https://docs.google.com/spreadsheets/d/1KRz4BxfZMiVuNSRogQ07To1Xo2KI_hLexjCjcoXvzPQ/edit#gid=1649175478)
 
-## Materials List
+## method idiosyncrasies
+
+-   put lysis buffer in tubes prior to transfer of samples
+
+-   place reagents on columns prior to removal of under waste to avoid drying out column
+
+-   incubate all washes/primers for a time after addition onto column prior to spin.
+
+    -   found that 1 min for most things worked well.
+
+    -   for final wash incubated was at RT for 3 min prior to 2 min spin
+
+-   nix repeat elution step
 
 ## Kit Particulars & Lot Numbers
 
@@ -121,7 +133,7 @@ Input_Yield %>%
 
 kit details
 
-**1st kit**
+**1st kit used**
 
 O: 3/24 by Blair Perry, consumed a couple rxns (unkown specific amount)
 
@@ -131,7 +143,7 @@ O: 3/24 by Blair Perry, consumed a couple rxns (unkown specific amount)
 
 -   RNA Wash Buffer mixed with 200 proof EtOH ??, stored at RT
 
-**2nd kit**
+**2nd kit used**
 
 O: 6/20/24 by MIOK
 
@@ -140,6 +152,16 @@ O: 6/20/24 by MIOK
 -   DNAse 1 reconstituted 6/20 by MIOK, made 4 aliquots total, stored in the -20
 
 -   RNA Wash Buffer mixed with 200 proof EtOH 6/20/24 by MIOK, stored at RT
+
+**3rd kit used**
+
+O: \##### by MIOK
+
+-   proteinase K reconstituted \##### by MIOK, made 3 aliquots total, stored in the -20
+
+-   DNAse 1 reconstituted \##### by MIOK, made 3 aliquots total, stored in the -20
+
+-   RNA Wash Buffer mixed with 200 proof EtOH \##### by MIOK, stored at RT
 
 # Log
 
@@ -207,21 +229,21 @@ Other things I did:
 
 Compare fragment profile (Bioanalyzer) results from 1st batch of juvenile extractions to the longer digestion batch (today's samples) as well as spot check the other samples.
 
-### 6/18/2023
+### 6/18/2024
 
 -   12 samples processed - results look alright
 
-### 6/20/2023
+### 6/20/2024
 
 -   new kit opened. DNAse aliquots prepared. proteinase K reconstituted and aliquoted. Wash buffer etoh added
 
 -   12 samples processed
 
-### 6/25/2023
+### 6/25/2024
 
 12 samples processed
 
-### 6/27/2023
+### 6/27/2024
 
 11 gill samples extracted
 
@@ -235,13 +257,9 @@ Next steps:
 
 Extract Pilot Brain and run batch 6 and 7 on the Bio A
 
-make sure to run the following samples on the BioA
+Pilot test on sample: H24041
 
-E63_HG18,
-
-### 7/3/2023
-
-18 brain extractions planned
+make sure to run the following samples on the BioA: E63_HG18
 
 ### Brain Extraction Notes
 
@@ -251,26 +269,40 @@ fastprep program: 4.0 m/s for 20 seconds [preprint that did this](https://doi.or
 
 NEB recco's input of 10 mg. max input of 50 mg [NEB](https://www.neb.com/en-us/-/media/nebus/files/manuals/manualt2010.pdf?rev=175a03b980f84584b7353d73dd6cba54&hash=93B1804F5634464706E58663FCD33B6C)
 
-### Notes
+### 7/3/2024
 
-For last batch: watch it with the lysis buffer!!!
-
-Finish the gills. Do pilot of the brain. BioA check up of the last of the gills
-
-??? Redo extraction of some samples.
-
-Next week: Start Library prep of gills. Increase PCR cycle from 10 to 11?
-
-After that: Extraction of 18 brains – very specific brains. then lib prep of them
-
-Overall: No muscle and not other brains, 83+18
-
-5 brains will be tossed
-
-Index with the indexes we currently have
+18 brain extractions successfully executed. yield and purity aight
 
 Fish ID of Brains selected for Rna extraction
 
 H24005, H24006, H24009, H24010, H24011, H24012, H24001, H24002, H24003, H24004, H24007, H24008, H24013, H24014, H24023, H24024, H24025, H24026
 
-Pilot test on sample: H24041
+### 7/5/2024
+
+2 redo extractions of gill tissues performed. Yield and purity from both samples look great
+
+next steps:
+
+remix batches, normalize samples and proceed with library prep
+
+regarding library prep selection:
+
+have 83 gill samples and 18 brain extractions and 96 indices
+
+need to pare down total sample count to 96.
+
+JK decided to omit samples: do to low yield or treatment redundancy
+
+|          |          |          |          |
+|:--------:|:--------:|:--------:|:--------:|
+| E78_HG55 | E07_HG62 | E08_HG77 | E02_HG15 |
+
+and re-extract samples
+
+|          |          |
+|:--------:|:--------:|
+| E03_HG36 | E09_HG24 |
+
+look at yield and go with better option to make a total of 96 samples
+
+### Notes
