@@ -111,12 +111,13 @@ Input_Yield %>%
 
 ## Kit Particulars & Lot Numbers
 
-| part                                                        | part no | lot         |
-|-------------------------------------------------------------|---------|-------------|
-| Lysing Matrix A tubes                                       | 6910100 | U1124135919 |
-| Lysing Matrix D tubes                                       | 6910100 | U1124135919 |
-| NEB monarch total RNA MiniPrep kit - 1st kit opened 3/19/24 | T2010S  | 10175994    |
-| NEB monarch total RNA MiniPrep kit - 2nd kit opened 6/20/24 | T2010S  | 10210910    |
+| part                                                         | part no | lot         |
+|--------------------------------------------------------------|---------|-------------|
+| Lysing Matrix A tubes                                        | 6910100 | U1124135919 |
+| Lysing Matrix D tubes                                        | 6910100 | U1124135919 |
+| NEB monarch total RNA MiniPrep kit - 1st kit. opened 3/19/24 | T2010S  | 10175994    |
+| NEB monarch total RNA MiniPrep kit - 2nd kit. opened 6/20/24 | T2010S  | 10210910    |
+| NEB monarch total RNA MiniPrep kit - 3rd kit. opened 7/2/24  | T2010Sx |             |
 
 kit details
 
@@ -237,6 +238,10 @@ Extract Pilot Brain and run batch 6 and 7 on the Bio A
 make sure to run the following samples on the BioA
 
 E63_HG18,
+
+### 7/3/2023
+
+18 brain extractions planned
 
 ### Brain Extraction Notes
 
