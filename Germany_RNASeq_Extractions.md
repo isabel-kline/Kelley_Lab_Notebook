@@ -90,7 +90,7 @@ storage location and temperature: CBB Freezer Room -80
 
     -   for final wash incubated was at RT for 3 min prior to 2 min spin
 
--   nix repeat elution step
+-   nix repeat elution step. of note: accidental elution volume of 114 ul had a 1.3x yield recovery compared to sample input of similar sized samples. Maybe larger elution volume would be beneficial for increased yield
 
 ## Kit Particulars & Lot Numbers
 
