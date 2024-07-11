@@ -1,5 +1,5 @@
 ---
-title: "Germany RNASeq Extractions"
+title: "Germany RNASeq Libraries"
 author: "Isabel Kline"
 output:  
   html_document:
