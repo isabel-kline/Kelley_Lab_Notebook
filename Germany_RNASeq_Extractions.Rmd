@@ -16,9 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Summary
 
-### Overview - Exp 23 Extraction
-
-details:
+All samples were stored in RNALater solution. The gill arch samples were homogenized in MP Bio Matrix A tubes using a Fast Prep 5G with cool prep adapter. Gill arch RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit with one modification, a proteinase K incubation time of 30 minutes. Brain samples were homogenized in MP Bio Matrix D tubes using a Fast Prep 5G with cool prep adapter. Brain RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit.:
 
 [Drive folder link](https://drive.google.com/drive/u/0/folders/1Hol6ktlDViiKfrVa1tLDwSl3-bCFDLBG)
 
@@ -39,12 +37,6 @@ Extraction plan:
 -   Gills - Cryofracture in Lysing Matrix A tubes using coolPrep adapter for 45 sec at a speed setting of 6.5 m/s. NEB spin column RNA extraction. 30 min pro K incubation
 
 -   Brain- Cryofracture in Lysing Matrix D tubes using coolPrep adapter for 20 sec at a speed setting of 4 m/s. NEB spin column RNA extraction std protocol
-
-Library prep plan: need 1 ug input
-
-multiplexing plan: 96 indexes that we currently have in hand
-
-##### Sequencing strategy
 
 Month of Experiment: 6/24
 
