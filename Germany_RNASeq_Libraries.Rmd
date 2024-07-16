@@ -171,7 +171,9 @@ storage location and temperature: Kelley Lab -20
 
 # [Exp23_Protocol](https://docs.google.com/spreadsheets/d/1KRz4BxfZMiVuNSRogQ07To1Xo2KI_hLexjCjcoXvzPQ/edit#gid=1649175478)
 
-## method idiosyncrasies
+## Method idiosyncrasies
+
+-   target insert size of 300 nt
 
 -   PCR cycles: 10
 
@@ -214,5 +216,31 @@ possible causes:
 next steps: process 8 samples only in next batch and see what happens
 
 ### 07/11/24
+
+Batch 2 - 8 samples. concentration of libraries ranged from 1.11ng/ul to 4.51 ng/ul
+
+yield is pretty low.
+
+Overall thoughts:
+
+-   stick with 300 bp insert. Could up pcr cycles to 12 in future projects
+
+-   change to 200 bp insert, pcr 10 and see if yield is signif diff
+
+-   could i lower input of extract?
+
+-   more aggressively mix ligation
+
+### 07/16/24
+
+Batch 3 - 16 samples. concentration of libraries 10 - 26 ng/ul
+
+yield is better!
+
+things I thought I did well here:
+
+-   put enhancer master mix into fresh tubes prior to end of end prep. add in adaptors to sample tubes then transfer sample/diluted adapter into enhancer master mix
+
+-   more steadily mix ligation
 
 ### Notes
