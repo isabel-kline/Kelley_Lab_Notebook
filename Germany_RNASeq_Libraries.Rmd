@@ -16,11 +16,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Summary
 
-### Overview 
+### Overview
 
-The total RNA was then normalized and the mRNA fraction was enriched via the NEBNext Poly(A) mRNA Magnetic Isolation Module. Subsequently the samples were prepared for sequencing using the NEBNext® Ultra II Directional RNA Library Prep Kit for Illumina® and indexed using the NEBNext® Multiplex Oligos for Illumina. The protocol followed for library preparation modified fragment time to 10 minutes at 94 C, extended the first strand cDNA synthesis incubation 42 C incubation time to 50 minutes and limited the PCR cycles to 10. 
+Extracted total RNA was normalized and the mRNA fraction was enriched via the NEBNext Poly(A) mRNA Magnetic Isolation Module. The samples were prepared for sequencing using the NEBNext® Ultra II Directional RNA Library Prep Kit for Illumina® and indexed using the NEBNext® Multiplex Oligos for Illumina. The protocol followed for library preparation modified fragment time to 10 minutes at 94 C, extended the first strand cDNA synthesis incubation 42 C incubation time to 50 minutes and limited the PCR cycles to 10. 
 
 [Drive folder link](https://drive.google.com/drive/u/0/folders/1Hol6ktlDViiKfrVa1tLDwSl3-bCFDLBG)
+
+First pass library prep results:
 
 | Library | Qubit (ng/ul) | i7 index iD |
 |:-------:|:-------------:|:-----------:|
@@ -104,22 +106,22 @@ The total RNA was then normalized and the mRNA fraction was enriched via the NEB
 |   78    |     17.1      |   P70-F10   |
 |   79    |     20.9      |   P82-G10   |
 |   80    |     21.6      |   P94-H10   |
-|   81    |               |   P11-A11   |
-|   82    |               |   P23-B11   |
-|   83    |               |   P35-C11   |
-|   84    |               |   P47-D11   |
-|   85    |               |   P59-E11   |
-|   86    |               |   P71-F11   |
-|   87    |               |   P83-G11   |
-|   88    |               |   P95-H11   |
-|   89    |               |   P12-A12   |
-|   90    |               |   P24-B12   |
-|   91    |               |   P36-C12   |
-|   92    |               |   P48-D12   |
-|   93    |               |   P60-E12   |
-|   94    |               |   P72-F12   |
-|   95    |               |   P84-G12   |
-|   96    |               |   P96-H12   |
+|   81    |     33.2      |   P11-A11   |
+|   82    |     39.3      |   P23-B11   |
+|   83    |     20.2      |   P35-C11   |
+|   84    |     30.5      |   P47-D11   |
+|   85    |     40.7      |   P59-E11   |
+|   86    |      44       |   P71-F11   |
+|   87    |     39.6      |   P83-G11   |
+|   88    |     28.6      |   P95-H11   |
+|   89    |     31.9      |   P12-A12   |
+|   90    |     31.5      |   P24-B12   |
+|   91    |     37.4      |   P36-C12   |
+|   92    |     28.8      |   P48-D12   |
+|   93    |     30.2      |   P60-E12   |
+|   94    |     34.7      |   P72-F12   |
+|   95    |     36.4      |   P84-G12   |
+|   96    |     34.3      |   P96-H12   |
 
 : Libraries
 
@@ -171,15 +173,9 @@ storage location and temperature: Kelley Lab -20
 
 # [Exp23_Protocol](https://docs.google.com/spreadsheets/d/1KRz4BxfZMiVuNSRogQ07To1Xo2KI_hLexjCjcoXvzPQ/edit#gid=1649175478)
 
-## Method idiosyncrasies
-
 -   target insert size of 300 nt
 
 -   PCR cycles: 10
-
-    *perhaps if aiming for insert of 300 bp, should bump cycles up by 1 or two*
-
-    ## Kit Particulars & Lot Numbers
 
 | part | part no | lot |
 |------|---------|-----|
@@ -243,4 +239,10 @@ things I thought I did well here:
 
 -   more steadily mix ligation
 
-### Notes
+### 07/26/24
+
+all done with library prep sample processing.
+
+redid library prep on 8 samples with extremely poor yield. used the same indexes on the samples as was used in the first attempt. Did this by using the overage amount left in the index plate. Amount of index used was \<5 ul apiece about 3.5 ul.
+
+Yield was sufficient for two samples and great for 6 samples
