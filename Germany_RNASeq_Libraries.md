@@ -20,6 +20,26 @@ Extracted total RNA was normalized and the mRNA fraction was enriched via the NE
 
 [Drive folder link](https://drive.google.com/drive/u/0/folders/1Hol6ktlDViiKfrVa1tLDwSl3-bCFDLBG)
 
+Gills first, sample count: 83.
+
+remixed order from extraction order
+
+
+Brains second, sample count: 18.
+
+remixed order from extraction order
+
+
+Library prep bar: need 1 ug input
+
+
+PCR cycles: 10
+
+
+Month of Experiment: 7/24
+
+# Data
+
 First pass library prep results:
 
 | Library | Qubit (ng/ul) | i7 index iD |
@@ -121,19 +141,20 @@ First pass library prep results:
 |   95    |     36.4      |   P84-G12   |
 |   96    |     34.3      |   P96-H12   |
 
-: Libraries
+Redo's library prep results
 
-Gills first, sample count: 83. remixed order from extraction order
+| Library | Qubit (ng/ul) | i7 index iD |
+|:-------:|:-------------:|:-----------:|
+|   12b   |      3.7      |   P38-D2    |
+|   17b   |     36.8      |    P3-A3    |
+|   18b   |     26.6      |   P15-B3    |
+|   19b   |     20.4      |   P27-C3    |
+|   20b   |     30.2      |   P39-D3    |
+|   21b   |      27       |   P51-E3    |
+|   23b   |     36.5      |   P75-G3    |
+|   38b   |     10.9      |   P65-F5    |
 
-Brains second, sample count: 18.remixed order from extraction order
-
-Library prep bar: need 1 ug input
-
-PCR cycles: 10
-
-Month of Experiment: 7/24
-
-### Sample Storage
+# Sample Storage
 
 ##### Gills -
 
