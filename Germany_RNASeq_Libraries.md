@@ -24,19 +24,17 @@ Gills first, sample count: 83.
 
 remixed order from extraction order
 
-
 Brains second, sample count: 18.
 
 remixed order from extraction order
 
-
 Library prep bar: need 1 ug input
-
 
 PCR cycles: 10
 
-
 Month of Experiment: 7/24
+
+redid library prep on 8 samples with poor library prep yield using the same indexes as from the first round.
 
 # Data
 
