@@ -1,0 +1,35 @@
+---
+title: "Germany RNASeq Pooling"
+author: "Isabel Kline"
+output:  
+  html_document:
+    keep_md: true
+    theme: cosmo
+    toc:  True
+    toc_float:  FALSE
+    number_sections:  true
+---
+
+
+
+# Pooling Plan
+
+[Drive folder link](https://drive.google.com/drive/u/0/folders/1Hol6ktlDViiKfrVa1tLDwSl3-bCFDLBG)
+
+Month of Experiment: 7/24
+
+# Data
+
+# Sample Storage
+
+##### RNA libraries:
+
+tube ids: Germany RNA Seq 1-96
+
+box: Germany RNA Seq Libraries Summer '24 MIOK
+
+storage location and temperature: Kelley Lab -20
+
+# Log
+
+### 07/29/24
