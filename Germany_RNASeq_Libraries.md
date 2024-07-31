@@ -6,7 +6,8 @@ output:
     keep_md: true
     theme: cosmo
     toc:  True
-    toc_float:  FALSE
+    toc_float:  True
+    toc_depth: 2
     number_sections:  true
 ---
 
@@ -41,6 +42,10 @@ Month of Experiment: 7/24
 redid library prep on 8 samples with poor library prep yield using the same indexes as from the first round.
 
 # Data
+
+<details>
+
+<summary>Click me for table of sample concentrations and indices </summary>
 
 First pass library prep results:
 
@@ -156,9 +161,11 @@ Redo's library prep results
 |   23b   |     36.5      |   P75-G3    |
 |   38b   |     10.9      |   P65-F5    |
 
+</details>
+
 # Sample Storage
 
-##### Gills -
+**Gills -**
 
 tube ids: HG24001 - HG24083
 
@@ -166,7 +173,7 @@ box label:
 
 storage location and temperature: Kelley Lab -20
 
-##### Brains -
+**Brains -**
 
 tube ids: HB24001 - HB24083
 
@@ -174,7 +181,7 @@ box label:
 
 storage location and temperature: Kelley Lab -20
 
-##### RNA extracts:
+**RNA extracts:**
 
 tube ids: E##\_HG01-E##HG83
 
@@ -182,15 +189,13 @@ boxes: Germany RNA Seq Extractions Summer '24 MIOK Box \# of 2
 
 storage location and temperature: CBB Freezer Room -80
 
-##### RNA libraries:
+**RNA libraries:**
 
 tube ids: Germany RNA Seq 1-96
 
 box: Germany RNA Seq Libraries Summer '24 MIOK
 
 storage location and temperature: Kelley Lab -20
-
-##### 
 
 # [Exp23_Protocol](https://docs.google.com/spreadsheets/d/1KRz4BxfZMiVuNSRogQ07To1Xo2KI_hLexjCjcoXvzPQ/edit#gid=1649175478)
 
@@ -221,6 +226,10 @@ lot: 10188264
 O: 7/09/24 by MIOK
 
 # Log
+
+<details>
+
+<summary>Click me for log entries </summary>
 
 ### 07/09/24
 
@@ -271,3 +280,5 @@ all done with library prep sample processing.
 redid library prep on 8 samples with extremely poor yield. used the same indexes on the samples as was used in the first attempt. Did this by using the overage amount left in the index plate. Amount of index used was \<5 ul apiece about 3.5 ul.
 
 Yield was sufficient for two samples and great for 6 samples
+
+</details>

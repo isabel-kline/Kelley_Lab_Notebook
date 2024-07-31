@@ -28,7 +28,11 @@ Samples were either normalized to 5 ng/ul or left undiluted if the initial sampl
 
 ## [Pooling](https://isabel-kline.github.io/Kelley_Lab_Notebook/Germany_RNASeq_Pooling.html#1_Summary)
 
-|                                   |      |       |
-|-----------------------------------|------|-------|
-| [measured]                        | 3.86 | ng/ul |
-| approx nM based on measured qubit | 14.3 | nM    |
+|                                   |        |
+|-----------------------------------|--------|
+| Pool Volume                       | 309.35 |
+| expected ng input                 | 1440   |
+| [expected]                        | 4.65   |
+| approx nM                         | 17.25  |
+| [measured]                        | 3.86   |
+| approx nM based on measured qubit | 14.3   |

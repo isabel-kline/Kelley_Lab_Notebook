@@ -6,7 +6,8 @@ output:
     keep_md: true
     theme: cosmo
     toc:  true
-    toc_float:  true
+    toc_float: true
+    toc_depth: 2
     number_sections:  true
 ---
 
@@ -89,7 +90,7 @@ storage location and temperature: CBB Freezer Room -80
 ## Kit Particulars & Lot Numbers
 
 | part                                                         | part no | lot         |
-|----------------------------------------------|-------------|-------------|
+|------------------------------------------|---------------|---------------|
 | Lysing Matrix A tubes                                        | 6910100 | U1124135919 |
 | Lysing Matrix D tubes                                        | 6910100 | U1124135919 |
 | NEB monarch total RNA MiniPrep kit - 1st kit. opened 3/19/24 | T2010S  | 10175994    |
@@ -129,6 +130,10 @@ O: \##### by MIOK
 -   RNA Wash Buffer mixed with 200 proof EtOH \##### by MIOK, stored at RT
 
 # Log
+
+<details>
+
+<summary>Click me for log entries</summary>
 
 ### 06/11/24
 
@@ -270,4 +275,4 @@ and re-extract samples
 
 look at yield and go with better option to make a total of 96 samples
 
-### 
+</details>

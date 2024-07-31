@@ -6,7 +6,8 @@ output:
     keep_md: true
     theme: cosmo
     toc: true
-    toc_float: false
+    toc_float: true
+    toc_depth: 2
     number_sections: true
 ---
 
