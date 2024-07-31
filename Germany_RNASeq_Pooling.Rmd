@@ -70,7 +70,7 @@ Month of Experiment: 7/24
 <summary>Click me for table</summary>
 
 |                      |                    |              |                         |
-|------------------|------------------|------------------|--------------------|
+|----------------------|--------------------|--------------|-------------------------|
 | Library Prep Tube ID | ul Library diluted | diluant (ul) | **Pooling Volume (ul)** |
 | 1                    | \-                 | \-           | 2.48                    |
 | 2                    | \-                 | \-           | 2.56                    |
@@ -170,6 +170,15 @@ Month of Experiment: 7/24
 | 96                   | 2                  | 11.7         | 3                       |
 
 </details>
+
+|                                   |        |
+|-----------------------------------|--------|
+| Pool Volume                       | 318.35 |
+| expected ng input                 | 1440   |
+| [expected]                        | 4.52   |
+| approx nM                         | 17     |
+| [measured]                        | 3.86   |
+| approx nM based on measured qubit | 14.3   |
 
 # Sample Storage
 
