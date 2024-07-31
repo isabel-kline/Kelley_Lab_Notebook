@@ -14,13 +14,17 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Summary
+# Overview
 
-### Overview
+[Drive folder link](https://drive.google.com/drive/u/0/folders/1Hol6ktlDViiKfrVa1tLDwSl3-bCFDLBG)
 
 Extracted total RNA was normalized and the mRNA fraction was enriched via the NEBNext Poly(A) mRNA Magnetic Isolation Module. The samples were prepared for sequencing using the NEBNext® Ultra II Directional RNA Library Prep Kit for Illumina® and indexed using the NEBNext® Multiplex Oligos for Illumina. The protocol followed for library preparation modified fragment time to 10 minutes at 94 C, extended the first strand cDNA synthesis incubation 42 C incubation time to 50 minutes and limited the PCR cycles to 10. 
 
-[Drive folder link](https://drive.google.com/drive/u/0/folders/1Hol6ktlDViiKfrVa1tLDwSl3-bCFDLBG)
+Upon completion of library prep of all 96 samples proceed to pool samples for sequencing.
+
+[Pooling Lab Notebook Entry](https://isabel-kline.github.io/Kelley_Lab_Notebook/Germany_RNASeq_Pooling.html#1_Summary)
+
+# Summary
 
 Gills first, sample count: 83.
 
@@ -196,23 +200,27 @@ storage location and temperature: Kelley Lab -20
 
 -   PCR cycles: 10
 
-| part | part no | lot |
-|------|---------|-----|
-|      |         |     |
+kit's used:
 
-kit details
+**NEBNext Poly(A) mRNA Magnetic Isolation Module**
 
-**Poly A selection module**
+Part no: E7490
 
-O:
+O: 7/09/24
 
-**ultra 2 directional rna lib prep kit**
+**NEBNext® Ultra II Directional RNA Library Prep Kit for Illumina®**
 
-O:
+Part no: E7760L
 
-**Indices**
+O: 7/09/24
 
-O: \##### by MIOK
+**NEBNext® Multiplex Oligos for Illumina® (96 Index Primers)**
+
+Part no: E6609S
+
+lot: 10188264
+
+O: 7/09/24 by MIOK
 
 # Log
 
