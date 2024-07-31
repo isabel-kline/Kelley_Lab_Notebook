@@ -14,13 +14,17 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Summary
+# Overview
 
 All samples were stored in RNALater solution. The gill arch samples were homogenized in MP Bio Matrix A tubes using a Fast Prep 5G with cool prep adapter. Gill arch RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit with one modification, a proteinase K incubation time of 30 minutes. Brain samples were homogenized in MP Bio Matrix D tubes using a Fast Prep 5G with cool prep adapter. Brain RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit.:
 
-[Drive folder link](https://drive.google.com/drive/u/0/folders/1Hol6ktlDViiKfrVa1tLDwSl3-bCFDLBG)
+Upon completion of extractions of all samples proceed to library prep.
 
-### Planning
+[Library Prep Lab Notebook Entry](https://isabel-kline.github.io/Kelley_Lab_Notebook/Germany_RNASeq_Libraries.html#1_Summary)
+
+# Summary
+
+[Drive folder link](https://drive.google.com/drive/u/0/folders/1Hol6ktlDViiKfrVa1tLDwSl3-bCFDLBG)
 
 Gills first, sample count: 83, then library prep
 
@@ -40,7 +44,7 @@ Extraction plan:
 
 Month of Experiment: 6/24
 
-### Sample Storage
+# Sample Storage
 
 ##### Gills -
 
@@ -99,8 +103,6 @@ Input_Yield %>%
 
 # [Exp23_Protocol](https://docs.google.com/spreadsheets/d/1KRz4BxfZMiVuNSRogQ07To1Xo2KI_hLexjCjcoXvzPQ/edit#gid=1649175478)
 
-## method idiosyncrasies
-
 -   put lysis buffer in tubes prior to transfer of samples
 
 -   place reagents on columns prior to removal of under waste to avoid drying out column
@@ -116,7 +118,7 @@ Input_Yield %>%
 ## Kit Particulars & Lot Numbers
 
 | part                                                         | part no | lot         |
-|--------------------------------------------------------------|---------|-------------|
+|----------------------------------------------|-------------|-------------|
 | Lysing Matrix A tubes                                        | 6910100 | U1124135919 |
 | Lysing Matrix D tubes                                        | 6910100 | U1124135919 |
 | NEB monarch total RNA MiniPrep kit - 1st kit. opened 3/19/24 | T2010S  | 10175994    |
@@ -165,7 +167,7 @@ Moving forward how to tackle juvenile gill extractions? Should I use two gills?
 
 -   Kara Ryan suggested tackling the tissue homogenization individually for the juvenile gills . she employed that stratego with other small tissues before
 
-    -    *concerned with not recovering the max amount of gill from smash bag possible because itll be stuck in the corners and along sides of the smash bag*
+    -   *concerned with not recovering the max amount of gill from smash bag possible because itll be stuck in the corners and along sides of the smash bag*
 
 -   can i make sure to elute in lower volume for juveniles so it is more concentrated
 
@@ -297,4 +299,4 @@ and re-extract samples
 
 look at yield and go with better option to make a total of 96 samples
 
-### Notes
+### 
