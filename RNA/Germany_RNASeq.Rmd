@@ -16,6 +16,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Overview
 
+[Drive folder link](https://drive.google.com/drive/u/0/folders/1Hol6ktlDViiKfrVa1tLDwSl3-bCFDLBG)
+
 All samples were stored in RNALater solution. The gill arch samples were homogenized in MP Bio Matrix A tubes using a Fast Prep 5G with cool prep adapter. Gill arch RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit with one modification, a proteinase K incubation time of 30 minutes. Brain samples were homogenized in MP Bio Matrix D tubes using a Fast Prep 5G with cool prep adapter. Brain RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit.
 
 Extracted total RNA was normalized and the mRNA fraction was enriched via the NEBNext Poly(A) mRNA Magnetic Isolation Module. The samples were prepared for sequencing using the NEBNext® Ultra II Directional RNA Library Prep Kit for Illumina® and indexed using the NEBNext® Multiplex Oligos for Illumina. The protocol followed for library preparation modified fragment time to 10 minutes at 94 C, extended the first strand cDNA synthesis incubation 42 C incubation time to 50 minutes and limited the PCR cycles to 10. 

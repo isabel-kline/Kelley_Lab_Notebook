@@ -1,5 +1,5 @@
 ---
-title: "Gillii RNA Extractions"
+title: "Gillii Gill RNA Extractions"
 author: "Isabel Kline"
 output:  
   html_document:
@@ -17,51 +17,39 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Overview
 
-Poecilia gillii tissues - Only the control and hypoxic samples to be run.
-
-48 samples were stored in RNALater solution.
-
-Tissue Box Label: BWR24_001 to Costa Rica RNALater filled 12/06/23
-
-*The gill arch samples were homogenized in MP Bio Matrix A tubes using a Fast Prep 5G with cool prep adapter. Gill arch RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit with one modification, a proteinase K incubation time of 30 minutes. Brain samples were homogenized in MP Bio Matrix D tubes using a Fast Prep 5G with cool prep adapter. Brain RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit.*
-
-*Library Prep Lab Notebook Entry*
+The gill tissue samples were homogenized in MP Bio Matrix A tubes using a Fast Prep 5G with cool prep adapter. Gill arch RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit.
 
 # Summary
 
-*Drive folder link*
+Poecilia gillii gills - Only the control and hypoxic samples to be run.
+
+Total amount: 48 samples stored in RNA Later solution.
+
+[Drive folder link](https://drive.google.com/drive/folders/1N9ebukVfd9IsLPw2OFkqJCr_8oMp0GTy)
 
 Extraction plan:
 
--   *Gills - Cryofracture in Lysing Matrix A tubes using coolPrep adapter for 45 sec at a speed setting of 6.5 m/s. NEB spin column RNA extraction. 30 min pro K incubation*
+-   Gills - Cryofracture in Lysing Matrix A tubes using coolPrep adapter for 45 sec at a speed setting of 6.5 m/s. NEB spin column RNA extraction.
 
--   *Brain- Cryofracture in Lysing Matrix D tubes using coolPrep adapter for 20 sec at a speed setting of 4 m/s. NEB spin column RNA extraction std protocol*
+-   batches of 8 or 12
 
 Month of Experiment: 8/24
 
 # Sample Storage
 
-##### *Gills -*
+**Gills** *-*
 
-*tube ids: HG24001 - HG24083*
+tube ids: BWR24_0##
 
-*box label:*
+box label:BWR24_001 to. Costa Rica RNALater filled 12/06/23
 
-*storage location and temperature: Kelley Lab -20*
+storage location and temperature: Kelley Lab -80
 
-##### *Brains -*
+RNA extracts -
 
-*tube ids: HB24001 - HB24083*
+*tube ids:* 0##\_E##
 
-*box label:*
-
-*storage location and temperature: Kelley Lab -20*
-
-##### *RNA extracts:*
-
-*tube ids: E##\_HG01-E##HG83*
-
-*boxes: Germany RNA Seq Extractions Summer '24 MIOK Box \# of 2*
+*boxes: Gillii Gill RNA Seq Extractions Summer '24 MIOK Box 1 of 1*
 
 *storage location and temperature: CBB Freezer Room -80*
 
@@ -96,7 +84,7 @@ library(tidyverse)
   #theme_minimal()
 ```
 
-# *Exp##\_Protocol*
+# *Exp29_Protocol*
 
 -   *put lysis buffer in tubes prior to transfer of samples*
 
@@ -110,27 +98,22 @@ library(tidyverse)
 
 -   *nix repeat elution step. of note: accidental elution volume of 114 ul had a 1.3x yield recovery compared to sample input of similar sized samples. Maybe larger elution volume would be beneficial for increased yield*
 
-## *Kit Particulars & Lot Numbers*
+## Kit Particulars & Lot Numbers
 
-| part                                                           | part no   | lot           |
-|---------------------------------------|-----------------|-----------------|
-| *Lysing Matrix A tubes*                                        | *6910100* | *U1124135919* |
-| *Lysing Matrix D tubes*                                        | *6910100* | *U1124135919* |
-| *NEB monarch total RNA MiniPrep kit - 1st kit. opened 3/19/24* | *T2010S*  | *10175994*    |
-| *NEB monarch total RNA MiniPrep kit - 2nd kit. opened 6/20/24* | *T2010S*  | *10210910*    |
-| *NEB monarch total RNA MiniPrep kit - 3rd kit. opened 7/2/24*  | *T2010Sx* |               |
+| part                                                        | part no   | lot           |
+|-------------------------------------|------------------|------------------|
+| Lysi*ng Matrix A tubes*                                     | *6910100* | *U1124135919* |
+| NEB monarch total RNA MiniPrep kit - 3rd kit. opened 7/2/24 | T2010S    | 10210910      |
 
-kit details
+T2010S kit details
 
-***3rd kit used***
+O: 7/2/24 by MIOK
 
-*O: \##### by MIOK*
+-   proteinase K reconstituted 7/2/24 by MIOK, made 3 aliquots total, stored in the -20
 
--   *proteinase K reconstituted \##### by MIOK, made 3 aliquots total, stored in the -20*
+-   DNAse 1 reconstituted 7/2/24 by MIOK, made 3 aliquots total, stored in the -20
 
--   *DNAse 1 reconstituted \##### by MIOK, made 3 aliquots total, stored in the -20*
-
--   *RNA Wash Buffer mixed with 200 proof EtOH \##### by MIOK, stored at RT*
+-   RNA Wash Buffer mixed with 200 proof EtOH 7/2/24 by MIOK, stored at RT
 
 # Log
 
@@ -138,14 +121,10 @@ kit details
 
 <summary>Click me for log entries</summary>
 
-### 08/00/2024
+### 08/01/2024
 
-#### Plan for extractions
+Set up documents today. Labeled RNA extraction tubes today. Randomized order of sample processing from the initial sample sheet.
 
--   "bury" the sample in the lysing matrix A garnet flakes. Observed supernatant that was less clear then the 1st batch juvenile supernatants post cryofracture
-
--   add buffers (priming buff, wash buff) on top of columns prior to removing waste below to avoid drying out the columns.
-
--   
+### 08/01/2024
 
 </details>
