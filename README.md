@@ -12,4 +12,6 @@ Fish HMW extractions - [link](https://isabel-kline.github.io/Kelley_Lab_Notebook
 
 Poecilia mexicana short read RNA seq - [link](https://isabel-kline.github.io/Kelley_Lab_Notebook/Germany_RNASeq.html#1_Summary)
 
-Poecilia gillii RNA Extractions - [link](https://isabel-kline.github.io/Kelley_Lab_Notebook/Gillii_RNA_Extractions.html)
+Poecilia gillii short read RNA seq
+
+-   RNA Extractions - [link](https://isabel-kline.github.io/Kelley_Lab_Notebook/Gillii_RNA_Extractions.html)
