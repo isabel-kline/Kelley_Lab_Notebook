@@ -29,6 +29,8 @@ Extraction plan:
 
 -   Gills - Cryofracture in Lysing Matrix A tubes using coolPrep adapter for 45 sec at a speed setting of 6.5 m/s. NEB spin column RNA extraction.
 
+    -   dependent upon weight of gills (if v small) might increase pro k incubation from 5 min to a half hour
+
 -   batches of 8 or 12
 
 Month of Experiment: 8/24
