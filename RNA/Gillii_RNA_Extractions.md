@@ -47,11 +47,11 @@ storage location and temperature: Kelley Lab -80
 
 RNA extracts -
 
-*tube ids:* 0##\_E##
+tube ids: 0##\_E##
 
-*boxes: Gillii Gill RNA Seq Extractions Summer '24 MIOK Box 1 of 1*
+boxes: Gillii Gill RNA Seq Extractions Summer '24 MIOK Box 1 of 1
 
-*storage location and temperature: CBB Freezer Room -80*
+storage location and temperature: CBB Freezer Room -80
 
 # Input v Yield
 
@@ -78,7 +78,7 @@ RNA extracts -
 ## Kit Particulars & Lot Numbers
 
 | part                                                        | part no | lot         |
-|-------------------------------------|------------------|------------------|
+|------------------------------------|------------------|------------------|
 | Lysing Matrix A tubes                                       | 6910100 | U1124135919 |
 | NEB monarch total RNA MiniPrep kit - 3rd kit. opened 7/2/24 | T2010S  | 10210910    |
 
@@ -105,5 +105,15 @@ Set up documents today. Labeled RNA extraction tubes today. Randomized order of 
 ### 08/02/2024
 
 12 extractions
+
+decided to do 15 min proteinase K digestion at 300 rpm
+
+did a 5 min RT incubation of the 1st wash buffer prior to dnase due to needing to make the dnase master mix
+
+post priming wash incubated for 2 min on top of col prior to spin down
+
+2nd and final wash incuabted for 3 min atop of the col prior to 2 min spin down
+
+elution volume was 80 ul
 
 </details>
