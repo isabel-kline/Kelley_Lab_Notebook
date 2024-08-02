@@ -57,26 +57,30 @@ RNA extracts -
 
 
 
-# *Exp29_Protocol*
+# [Exp29_Protocol](https://docs.google.com/spreadsheets/d/1mdKU-nXcEaraULA1sr7dwBripUXnzSDtDnUGB7AWCd8/edit?gid=925856207#gid=925856207)
 
--   *put lysis buffer in tubes prior to transfer of samples*
+-   put lysis buffer in tubes prior to transfer of samples
 
--   *place reagents on columns prior to removal of under waste to avoid drying out column*
+-   place reagents on columns prior to removal of under waste to avoid drying out column
 
--   *incubate all washes/primers for a time after addition onto column prior to spin.*
+-   incubate all washes/primers for a time after addition onto column prior to spin.
 
-    -   *found that 1 min for most things worked well.*
+    -   found that 1 min for most things worked well.
 
-    -   *for final wash incubated was at RT for 3 min prior to 2 min spin*
+    -   for final wash incubated was at RT for 3 min prior to 2 min spin
 
--   *nix repeat elution step. of note: accidental elution volume of 114 ul had a 1.3x yield recovery compared to sample input of similar sized samples. Maybe larger elution volume would be beneficial for increased yield*
+-   nix repeat elution step.
+
+    of note: accidental elution volume of 114 ul had a 1.3x yield recovery compared to sample input of similar sized samples. Maybe larger elution volume would be beneficial for increased yield
+
+-   
 
 ## Kit Particulars & Lot Numbers
 
-| part                                                        | part no   | lot           |
+| part                                                        | part no | lot         |
 |-------------------------------------|------------------|------------------|
-| Lysi*ng Matrix A tubes*                                     | *6910100* | *U1124135919* |
-| NEB monarch total RNA MiniPrep kit - 3rd kit. opened 7/2/24 | T2010S    | 10210910      |
+| Lysing Matrix A tubes                                       | 6910100 | U1124135919 |
+| NEB monarch total RNA MiniPrep kit - 3rd kit. opened 7/2/24 | T2010S  | 10210910    |
 
 T2010S kit details
 
@@ -98,6 +102,8 @@ O: 7/2/24 by MIOK
 
 Set up documents today. Labeled RNA extraction tubes today. Randomized order of sample processing from the initial sample sheet.
 
-### 08/01/2024
+### 08/02/2024
+
+12 extractions
 
 </details>
