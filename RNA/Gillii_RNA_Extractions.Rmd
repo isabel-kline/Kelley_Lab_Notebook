@@ -55,7 +55,7 @@ boxes: Gillii Gill RNA Seq Extractions Summer '24 MIOK Box 1 of 1
 
 storage location and temperature: CBB Freezer Room -80
 
-# Input v Yield
+# Input to Yield
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 setwd("~/Documents/Github/Kelley_Lab_Notebook")
@@ -137,7 +137,17 @@ Set up documents today. Labeled RNA extraction tubes today. Randomized order of 
 
 decided to do 15 min proteinase K digestion at 300 rpm
 
-did a 5 min RT incubation of the 1st wash buffer prior to dnase due to needing to make the dnase master mix
+post priming wash incubated for 2 min on top of col prior to spin down
+
+2nd and final wash incuabted for 3 min atop of the col prior to 2 min spin down
+
+elution volume was 80 ul
+
+### 08/06/2024
+
+12 extractions
+
+15 min proteinase K digestion at 300 rpm
 
 post priming wash incubated for 2 min on top of col prior to spin down
 
