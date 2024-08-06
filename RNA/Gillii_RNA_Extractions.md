@@ -15,23 +15,21 @@ output:
 
 # Overview
 
-The gill tissue samples were homogenized in MP Bio Matrix A tubes using a Fast Prep 5G with cool prep adapter. Gill arch RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit.
+The gill tissue samples were homogenized in MP Bio Matrix A tubes using a Fast Prep 5G with cool prep adapter. Gill arch RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit with one modification, a proteinase k incubation time of 15 minutes at 300 rpm.
+
+Upon completion of extractions of all samples proceed to library prep.
+
+Library Prep Lab Notebook Entry
 
 # Summary
 
-Poecilia gillii gills - Only the control and hypoxic samples to be run.
-
-Total amount: 48 samples stored in RNA Later solution.
+Poecilia gillii gills - 24 extractions from control and hypoxic S/NS fish gills
 
 [Drive folder link](https://drive.google.com/drive/folders/1N9ebukVfd9IsLPw2OFkqJCr_8oMp0GTy)
 
 Extraction plan:
 
 -   Gills - Cryofracture in Lysing Matrix A tubes using coolPrep adapter for 45 sec at a speed setting of 6.5 m/s. NEB spin column RNA extraction.
-
-    -   dependent upon weight of gills (if v small) might increase pro k incubation from 5 min to a half hour
-
--   batches of 8 or 12
 
 Month of Experiment: 8/24
 
@@ -55,7 +53,7 @@ storage location and temperature: CBB Freezer Room -80
 
 # Input to Yield
 
-
+![](Gillii_RNA_Extractions_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
 
 # [Exp29_Protocol](https://docs.google.com/spreadsheets/d/1mdKU-nXcEaraULA1sr7dwBripUXnzSDtDnUGB7AWCd8/edit?gid=925856207#gid=925856207)
 
@@ -65,15 +63,7 @@ storage location and temperature: CBB Freezer Room -80
 
 -   incubate all washes/primers for a time after addition onto column prior to spin.
 
-    -   found that 1 min for most things worked well.
-
-    -   for final wash incubated was at RT for 3 min prior to 2 min spin
-
--   nix repeat elution step.
-
-    of note: accidental elution volume of 114 ul had a 1.3x yield recovery compared to sample input of similar sized samples. Maybe larger elution volume would be beneficial for increased yield
-
--   
+-   Elution vol of 80 ul
 
 ## Kit Particulars & Lot Numbers
 
