@@ -21,7 +21,7 @@ The gill tissue samples were homogenized in MP Bio Matrix A tubes using a Fast P
 
 Upon completion of extractions of all samples, proceeded to library prep.
 
-Library Prep Lab Notebook Entry
+[Library Prep Lab Notebook Entry](https://isabel-kline.github.io/Kelley_Lab_Notebook/Gillii_RNA_Libraries.html)
 
 # Summary
 
