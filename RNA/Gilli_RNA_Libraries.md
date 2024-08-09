@@ -37,62 +37,62 @@ Month of Experiment: 8/24
 
 <summary>Click me for table of sample concentrations and indices</summary>
 
-| Library | Qubit (ng/ul) | i7 index iD |
-|:-------:|:-------------:|:-----------:|
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
-|         |               |             |
+|  Library  | Tube ID | Qubit (ng/ul) | i7 index iD |
+|:---------:|---------|:-------------:|:-----------:|
+| BWR24_001 | 1       |     13.2      |   P10-A10   |
+| BWR24_002 | 2       |     16.3      |   P22-B10   |
+| BWR24_029 | 3       |     14.2      |   P34-C10   |
+| BWR24_034 | 4       |     16.0      |   P46-D10   |
+| BWR24_004 | 5       |     17.8      |   P58-E10   |
+| BWR24_025 | 6       |     15.7      |   P70-F10   |
+| BWR24_028 | 7       |      9.6      |   P82-G10   |
+| BWR24_008 | 8       |     15.2      |   P94-H10   |
+| BWR24_036 | 9       |     11.7      |   P11-A11   |
+| BWR24_005 | 10      |     19.1      |   P23-B11   |
+| BWR24_007 | 11      |     16.8      |   P35-C11   |
+| BWR24_012 | 12      |     15.0      |   P47-D11   |
+| BWR24_032 | 13      |     19.1      |   P59-E11   |
+| BWR24_033 | 14      |     18.0      |   P71-F11   |
+| BWR24_031 | 15      |     14.6      |   P83-G11   |
+| BWR24_027 | 16      |     21.3      |   P95-H11   |
+| BWR24_003 | 17      |     11.9      |   P12-A12   |
+| BWR24_010 | 18      |     16.1      |   P24-B12   |
+| BWR24_035 | 19      |     15.2      |   P36-C12   |
+| BWR24_026 | 20      |     13.5      |   P48-D12   |
+| BWR24_030 | 21      |     17.3      |   P60-E12   |
+| BWR24_011 | 22      |     16.8      |   P72-F12   |
+| BWR24_009 | 23      |     15.1      |   P84-G12   |
+| BWR24_006 | 24      |     21.1      |   P96-H12   |
 
 </details>
 
 # Sample Storage
 
-**Gills -**
+**Gills** *-*
 
-tube ids: HG24001 - HG24083
+tube ids: BWR24_0##
 
-box label:
+box label:BWR24_001 to. Costa Rica RNALater filled 12/06/23
 
-storage location and temperature: Kelley Lab -20
+storage location and temperature: Kelley Lab -80
 
-**Brains -**
+**RNA extracts -**
 
-tube ids: HB24001 - HB24083
+tube ids: 0##\_E##
 
-box label:
-
-storage location and temperature: Kelley Lab -20
-
-**RNA extracts:**
-
-tube ids: E##\_HG01-E##HG83
-
-boxes: Germany RNA Seq Extractions Summer '24 MIOK Box \# of 2
+boxes: Gillii Gill RNA Seq Extractions Summer '24 MIOK Box 1 of 1
 
 storage location and temperature: CBB Freezer Room -80
 
 **RNA libraries:**
 
-tube ids: Germany RNA Seq 1-96
+tube ids: 1-24
 
-box: Germany RNA Seq Libraries Summer '24 MIOK
+box: Gillii Gill RNA Seq Libraries Summer '24 MIOK
 
 storage location and temperature: Kelley Lab -20
 
-# Exp29_Protocol
+# [Exp29_Protocol](https://docs.google.com/spreadsheets/d/1336Sl0eiGhrzxf5FDq5jDrtsFDEfrcXo-OResmpFPak/edit?gid=1778786204#gid=1778786204)
 
 -   target insert size of 300 nt
 
@@ -126,6 +126,8 @@ O: 7/09/24 by MIOK
 
 <summary>Click me for log entries</summary>
 
-### 08/07/24
+### 08/09/24
+
+Completed library prep of all 24 samples in one go. Library concentrations all looked okay.
 
 </details>
