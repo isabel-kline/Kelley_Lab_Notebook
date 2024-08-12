@@ -35,7 +35,7 @@ Month of Experiment: 8/24
 
 # Sample Storage
 
-**Gills** *-*
+**Gills**
 
 tube ids: BWR24_0##
 
@@ -43,7 +43,7 @@ box label:BWR24_001 to. Costa Rica RNALater filled 12/06/23
 
 storage location and temperature: Kelley Lab -80
 
-RNA extracts -
+**RNA extracts**
 
 tube ids: 0##\_E##
 
@@ -68,7 +68,7 @@ storage location and temperature: CBB Freezer Room -80
 ## Kit Particulars & Lot Numbers
 
 | part                                                        | part no | lot         |
-|------------------------------------|------------------|------------------|
+|-----------------------------------|------------------|------------------|
 | Lysing Matrix A tubes                                       | 6910100 | U1124135919 |
 | NEB monarch total RNA MiniPrep kit - 3rd kit. opened 7/2/24 | T2010S  | 10210910    |
 
