@@ -24,4 +24,4 @@ Extracted total RNA was normalized and the mRNA fraction was enriched via the NE
 
 ## [Library Prep](https://isabel-kline.github.io/Kelley_Lab_Notebook/Gilli_RNA_Libraries.html#1_Summary)
 
-## Pooling
+## [Pooling](https://isabel-kline.github.io/Kelley_Lab_Notebook/Gillii_RNA_Pooling.html#1_Summary)
