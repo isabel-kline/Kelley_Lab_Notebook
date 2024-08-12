@@ -16,6 +16,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Overview
 
+8/24 MIOK handled NGS wet lab processing from RNA extraction to initial pooling at UCSC
+
 [Drive folder link](https://drive.google.com/drive/folders/1N9ebukVfd9IsLPw2OFkqJCr_8oMp0GTy)
 
 All samples were stored in RNALater solution. The gill arch samples were homogenized in MP Bio Matrix A tubes using a Fast Prep 5G with cool prep adapter. Gill arch RNA was then extracted using the NEB monarch total RNA MiniPrep kit following the standard tissue protocol for the kit with one modification, a proteinase K incubation time of 15 minutes at 300 rpm.
